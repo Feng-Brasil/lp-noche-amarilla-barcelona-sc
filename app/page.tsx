@@ -81,7 +81,7 @@ export default function Home() {
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#1f1f1f] transition-colors">
               <span className="text-4xl mb-4 block">⭐</span>
               <h3 className="text-2xl font-bold mb-3 text-white">Estrella Mundial</h3>
-              <p className="text-[#999999] font-bold">Barcelona recebe a un crack mundial que se pone la amarilla para jugar con nosotros. Prepárate para una noite histórica que solo Barcelona te puede dar.</p>
+              <p className="text-[#999999] font-bold">Barcelona recebe a un crack mundial que se pone la amarilla para jugar con nosotros. Prepárate para una noite histórica que solo Barcelona te pode dar.</p>
             </div>
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#1f1f1f] transition-colors">
               <span className="text-4xl mb-4 block">🎤</span>
@@ -94,7 +94,7 @@ export default function Home() {
 
       {/* EXPERIÊNCIA EXCLUSIVA PARA SÓCIOS - 3º SCROLL */}
       <section className="py-24 border-y border-[#333333]">
-        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-16">
+        <div className="container mx-auto px-4 flex flex-col md:gap-12 lg:flex-row items-center gap-16">
           <div className="md:w-1/2">
             <img 
               src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Janeiro/1401/A73I4712.jpg" 
@@ -105,20 +105,20 @@ export default function Home() {
           <div className="md:w-1/2">
             <h2 className="text-4xl font-extrabold uppercase text-[#ffcc00] mb-6">Beneficios de ser SOCIO BSC</h2>
             <p className="text-xl text-[#999999] mb-8 leading-relaxed font-bold">
-              Ser socio es much o más que un sentimiento, es tener el <span className="text-white font-extrabold underline decoration-[#ff0000]">control total</span> de tu pasión y apoyar directamente al crescimento del club.
+              La Noche Amarilla es para todos, mas la experiencia completa es exclusiva para quienes llevan el club en la sangre.
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Ingreso directo a todos los partidos de local sin comprar boletos
+                <span className="text-[#ffcc00]">✓</span> Asegura tu lugar en todos los partidos de local de LigaPro y Copa Ecuador
               </li>
               <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Descuentos exclusivos en la tienda oficial y marcas aliadas
+                <span className="text-[#ffcc00]">✓</span> Más de 10 marcas aliadas con descuentos exclusivos
               </li>
               <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Prioridad de compra para torneos internacionales
+                <span className="text-[#ffcc00]">✓</span> Experiencias únicas junto al Ídolo
               </li>
               <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Voz y voto en las decisiones institucionales del club
+                <span className="text-[#ffcc00]">✓</span> Formar parte oficial de la historia del Club
               </li>
             </ul>
           </div>
