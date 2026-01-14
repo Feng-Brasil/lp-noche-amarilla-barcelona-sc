@@ -57,7 +57,7 @@ export default function Home() {
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#1f1f1f] transition-colors">
               <span className="text-4xl mb-4 block">⭐</span>
               <h3 className="text-2xl font-bold mb-3 text-white">Estrella Mundial</h3>
-              <p className="text-[#999999]">Barcelona recibe a un crack mundial que se pone la amarilla para jugar con nosotros. Prepárate para una noche histórica que solo Barcelona te puede dar.</p>
+              <p className="text-[#999999]">Barcelona recebe a un crack mundial que se pone la amarilla para jugar con nosotros. Prepárate para una noche histórica que solo Barcelona te puede dar.</p>
             </div>
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#1f1f1f] transition-colors">
               <span className="text-4xl mb-4 block">🎤</span>
@@ -85,16 +85,16 @@ export default function Home() {
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Prioridad absoluta en compra de boletos
+                <span className="text-[#ffcc00]">✓</span> Acceso asegurado a los partidos de LigaPro y Copa Ecuador
               </li>
               <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Descuentos exclusivos en indumentaria oficial
+                <span className="text-[#ffcc00]">✓</span> Descuentos especiales en indumentaria y produtos oficiales
               </li>
               <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Acceso a meet & greet con la estrella invitada
+                <span className="text-[#ffcc00]">✓</span> Grandes beneficios en nuestra red de comercios aliados
               </li>
               <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Tu name en el túnel de salida del equipo
+                <span className="text-[#ffcc00]">✓</span> Experiencias únicas y exclusivas junto al Ídolo del Astillero
               </li>
             </ul>
           </div>
