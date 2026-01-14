@@ -22,9 +22,9 @@ export default function Home() {
           <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-30 mix-blend-screen" />
           <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black z-10" />
           <img 
-            src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/assets/img/Home_Deslogada_2024/bg-scroll-3.png" 
+            src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Janeiro/1401/BSC_Scroll1-NocheAmarilla.png" 
             alt="Estadio Monumental" 
-            className="w-full h-full object-cover opacity-20 grayscale"
+            className="w-full h-full object-cover opacity-40"
           />
         </div>
 
@@ -105,7 +105,7 @@ export default function Home() {
           <div className="md:w-1/2">
             <h2 className="text-4xl font-extrabold uppercase text-[#ffcc00] mb-6">El privilegio de ser SOCIO BSC</h2>
             <p className="text-xl text-[#999999] mb-8 leading-relaxed font-bold">
-              La Noche Amarilla es para todos, pero la experiencia completa es <span className="text-white font-extrabold underline decoration-[#ff0000]">exclusiva</span> para quienes llevan el club en la sangue.
+              La Noche Amarilla es para todos, mas la experiencia completa es <span className="text-white font-extrabold underline decoration-[#ff0000]">exclusiva</span> para quienes llevan el club en la sangue.
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-center gap-3 text-lg font-bold">
