@@ -6,7 +6,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-t from-[#171717] via-[#171717]/60 to-transparent z-10" />
           <img 
-            src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&q=80&w=2000" 
+            src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/assets/img/Home_Deslogada_2024/bg-scroll-3.png" 
             alt="Estadio Monumental" 
             className="w-full h-full object-cover opacity-40 grayscale-[0.5]"
           />
@@ -45,7 +45,7 @@ export default function Home() {
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#1f1f1f] transition-colors">
               <span className="text-4xl mb-4 block">⚽</span>
               <h3 className="text-2xl font-bold mb-3 text-white">Amistoso Inaugural</h3>
-              <p className="text-[#999999]">Mira por primera vez a los nuevos refuerzos y la plantilla que buscará la gloria en esta temporada.</p>
+              <p className="text-[#999999]">Mira por primera vez a los novos refuerzos y la plantilla que buscará la gloria en esta temporada.</p>
             </div>
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#1f1f1f] transition-colors">
               <span className="text-4xl mb-4 block">⭐</span>
