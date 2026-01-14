@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#171717] text-[#ffffff] font-sans selection:bg-[#ffcc00] selection:text-[#000000]">
-      {/* HERO SECTION */}
+      {/* HERO SECTION - 1º SCROLL */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden border-b-4 border-[#ffcc00]">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-t from-[#171717] via-[#171717]/60 to-transparent z-10" />
@@ -40,7 +40,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* DESTAQUES DO EVENTO */}
+      {/* DESTAQUES DO EVENTO - 2º SCROLL */}
       <section className="py-24 bg-[#000000]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -68,7 +68,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* EXPERIÊNCIA EXCLUSIVA PARA SÓCIOS */}
+      {/* EXPERIÊNCIA EXCLUSIVA PARA SÓCIOS - 3º SCROLL */}
       <section className="py-24 border-y border-[#333333]">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-16">
           <div className="md:w-1/2">
@@ -88,7 +88,7 @@ export default function Home() {
                 <span className="text-[#ffcc00]">✓</span> Acceso asegurado a los partidos de LigaPro y Copa Ecuador
               </li>
               <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Descuentos especiales en indumentaria y produtos oficiais
+                <span className="text-[#ffcc00]">✓</span> Descuentos especiais en indumentaria y produtos oficiais
               </li>
               <li className="flex items-center gap-3 text-lg font-bold">
                 <span className="text-[#ffcc00]">✓</span> Grandes beneficios en nuestra red de comercios aliados
@@ -101,7 +101,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* PROVAS DE VALOR (QUARTO SCROLL) */}
+      {/* PROVAS DE VALOR - 4º SCROLL */}
       <section className="py-24 bg-[#ffcc00] text-[#000000]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -125,9 +125,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA FINAL */}
-      <section id="unirse" className="py-32 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[#ff0000]/10 z-0"></div>
+      {/* CTA FINAL - 5º SCROLL (MODIFICADO PARA BACKGROUND PRETO) */}
+      <section id="unirse" className="py-32 relative overflow-hidden bg-[#000000]">
+        <div className="absolute inset-0 bg-[#ff0000]/5 z-0"></div>
         <div className="container mx-auto px-4 relative z-10 text-center">
           <h2 className="text-5xl md:text-7xl font-black uppercase italic text-white mb-8 drop-shadow-lg">
             ¿LISTO PARA HACER <span className="text-[#ffcc00]">HISTORIA?</span>
