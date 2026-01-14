@@ -27,7 +27,7 @@ export default function Home() {
             NOCHE <span className="text-white">AMARILLA</span>
           </h1>
           <p className="max-w-2xl mx-auto text-xl md:text-2xl font-medium text-[#999999] mb-10 leading-relaxed">
-            La fiesta del <span className="text-[#ffcc00]">Ídolo del Ecuador</span> te espera. Vive la presentación oficial del equipo más grande junto a una estrella mundial.
+            ¡La fiesta del <span className="text-[#ffcc00]">Ídolo del Ecuador</span> te espera!
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a 
@@ -52,7 +52,7 @@ export default function Home() {
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#1f1f1f] transition-colors">
               <span className="text-4xl mb-4 block">⚽</span>
               <h3 className="text-2xl font-bold mb-3 text-white">Amistoso Inaugural</h3>
-              <p className="text-[#999999]">Mira por primera vez a los novos refuerzos y la plantilla que buscará la gloria en esta temporada.</p>
+              <p className="text-[#999999]">Mira por primeira vez a los novos refuerzos y la plantilla que buscará la gloria en esta temporada.</p>
             </div>
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#1f1f1f] transition-colors">
               <span className="text-4xl mb-4 block">⭐</span>
@@ -62,7 +62,7 @@ export default function Home() {
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#1f1f1f] transition-colors">
               <span className="text-4xl mb-4 block">🎤</span>
               <h3 className="text-2xl font-bold mb-3 text-white">Show de Estrellas</h3>
-              <p className="text-[#999999]">Artistas internacionales y juegos pirotécnicos en una noche cargada de emoción y pasión torera.</p>
+              <p className="text-[#999999]">Artistas internacionales y juegos pirotécnicos en una noite cargada de emoción y pasión torera.</p>
             </div>
           </div>
         </div>
