@@ -105,7 +105,7 @@ export default function Home() {
           <div className="md:w-1/2">
             <h2 className="text-4xl font-extrabold uppercase text-[#ffcc00] mb-6">Beneficios de ser SOCIO BSC</h2>
             <p className="text-xl text-[#999999] mb-8 leading-relaxed font-bold">
-              La Noche Amarilla es para todos, pero la experiencia completa es exclusiva para quienes llevan el Club en la sangre.
+              La Noche Amarilla es para todos, pero la experiencia completa es exclusiva para quienes llevan el Club en la sangue.
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-center gap-3 text-lg font-bold">
@@ -134,13 +134,12 @@ export default function Home() {
             alt="Estadio Monumental Background" 
             className="w-full h-full object-cover opacity-30"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#000000] via-[#000000]/60 to-[#000000]" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#000000] via-[#000000]/80 to-[#000000]" />
           <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[40%] h-[60%] bg-[#ffcc00]/10 blur-[100px] rounded-full" />
           <div className="absolute top-1/2 right-0 -translate-y-1/2 w-[40%] h-[60%] bg-[#ffcc00]/10 blur-[100px] rounded-full" />
           <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[80%] h-[20%] bg-[#ffcc00]/5 blur-[80px]" />
         </div>
         
-        <div className="absolute inset-0 bg-[#ff0000]/5 z-0"></div>
         <div className="container mx-auto px-4 relative z-10 text-center">
           <h2 className="text-5xl md:text-7xl font-extrabold uppercase text-white mb-8 drop-shadow-lg leading-[1.3] md:leading-[1.4]">
             ¿LISTO PARA HACER <span className="text-[#ffcc00]">HISTORIA?</span>
