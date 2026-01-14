@@ -44,25 +44,25 @@ export default function Home() {
       <section className="py-24 bg-[#000000]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-black uppercase italic text-[#ffcc00] mb-4">Lo que te espera en el Monumental</h2>
+            <h2 className="text-4xl font-black uppercase italic text-[#ffcc00] mb-4">Lo que te espera en nuestra casa</h2>
             <div className="h-1 w-24 bg-[#ff0000] mx-auto"></div>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#1f1f1f] transition-colors">
               <span className="text-4xl mb-4 block">⚽</span>
-              <h3 className="text-2xl font-bold mb-3 text-white">Amistoso Inaugural</h3>
-              <p className="text-[#999999]">Mira por primeira vez a los novos refuerzos y la plantilla que buscará la gloria en esta temporada.</p>
+              <h3 className="text-2xl font-bold mb-3 text-white">Presentación Oficial</h3>
+              <p className="text-[#999999]">Conoce de cerca a las nuevas incorporaciones y al plantel que representará a la institución en los torneos de esta temporada.</p>
             </div>
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#1f1f1f] transition-colors">
               <span className="text-4xl mb-4 block">⭐</span>
-              <h3 className="text-2xl font-bold mb-3 text-white">Invitado de Honor</h3>
-              <p className="text-[#999999]">Una leyenda del futebol mundial se viste de amarillo para jugar con nosotros. ¡No te lo puedes perder!</p>
+              <h3 className="text-2xl font-bold mb-3 text-white">Estrella Mundial</h3>
+              <p className="text-[#999999]">Barcelona recibe a un crack mundial que se pone la amarilla para jugar con nosotros. Prepárate para una noche histórica que solo Barcelona te puede dar.</p>
             </div>
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#1f1f1f] transition-colors">
               <span className="text-4xl mb-4 block">🎤</span>
-              <h3 className="text-2xl font-bold mb-3 text-white">Show de Estrellas</h3>
-              <p className="text-[#999999]">Artistas internacionales y juegos pirotécnicos en una noite cargada de emoción y pasión torera.</p>
+              <h3 className="text-2xl font-bold mb-3 text-white">Show Especial</h3>
+              <p className="text-[#999999]">Artistas internacionales, sorpresas y un show de fuegos artificiales para celebrar nuestra pasión. ¡Será una locura que nadie querrá que le cuenten!</p>
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@ export default function Home() {
                 <span className="text-[#ffcc00]">✓</span> Acceso a meet & greet con la estrella invitada
               </li>
               <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Tu nombre en el túnel de salida del equipo
+                <span className="text-[#ffcc00]">✓</span> Tu name en el túnel de salida del equipo
               </li>
             </ul>
           </div>
