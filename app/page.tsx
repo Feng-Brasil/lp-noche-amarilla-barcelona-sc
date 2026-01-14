@@ -65,28 +65,28 @@ export default function Home() {
       </section>
 
       {/* DESTAQUES DO EVENTO - 2º SCROLL */}
-      <section className="py-24 bg-[#ffcc00] text-[#000000]">
+      <section className="py-24 bg-[#000000] text-[#ffffff]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-extrabold uppercase text-[#000000] mb-4">Lo que te espera en nuestra casa</h2>
-            <div className="h-1 w-24 bg-[#ff0000] mx-auto"></div>
+            <h2 className="text-4xl font-extrabold uppercase text-[#ffcc00] mb-4">Lo que te espera en nuestra casa</h2>
+            <div className="h-1 w-24 bg-[#ffcc00] mx-auto"></div>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-8 border-l-4 border-[#000000] bg-[#ffcc00] hover:bg-[#f5c200] transition-colors">
+            <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">⚽</span>
-              <h3 className="text-2xl font-bold mb-3 text-[#000000]">Presentación Oficial</h3>
-              <p className="text-[#000000] font-bold">Conoce de cerca a las novas incorporaciones y al plantel que representará a la instituição en los torneos de esta temporada.</p>
+              <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Presentación Oficial</h3>
+              <p className="text-[#cccccc] font-bold">Conoce de cerca a las novas incorporaciones y al plantel que representará a la instituição en los torneos de esta temporada.</p>
             </div>
-            <div className="p-8 border-l-4 border-[#000000] bg-[#ffcc00] hover:bg-[#f5c200] transition-colors">
+            <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">⭐</span>
-              <h3 className="text-2xl font-bold mb-3 text-[#000000]">Estrella Mundial</h3>
-              <p className="text-[#000000] font-bold">Barcelona recebe a un crack mundial que se pone la amarilla para jugar con nosotros. Prepárate para una noite histórica que solo Barcelona te pode dar.</p>
+              <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Estrella Mundial</h3>
+              <p className="text-[#cccccc] font-bold">Barcelona recebe a un crack mundial que se pone la amarilla para jugar con nosotros. Prepárate para una noite histórica que solo Barcelona te pode dar.</p>
             </div>
-            <div className="p-8 border-l-4 border-[#000000] bg-[#ffcc00] hover:bg-[#f5c200] transition-colors">
+            <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">🎤</span>
-              <h3 className="text-2xl font-bold mb-3 text-[#000000]">Show Especial</h3>
-              <p className="text-[#000000] font-bold">Artistas internacionales, sorpresas y un show de fuegos artificiales para celebrar nuestra pasión. ¡Será una locura que ninguém querrá que le cuenten!</p>
+              <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Show Especial</h3>
+              <p className="text-[#cccccc] font-bold">Artistas internacionales, sorpresas y un show de fuegos artificiales para celebrar nuestra pasión. ¡Será una locura que ninguém querrá que le cuenten!</p>
             </div>
           </div>
         </div>
