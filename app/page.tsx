@@ -92,9 +92,9 @@ export default function Home() {
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-16">
           <div className="md:w-1/2">
             <img 
-              src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&q=80&w=1000" 
+              src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Janeiro/1401/A73I4712.jpg" 
               alt="Afición Barcelona SC" 
-              className="rounded-lg shadow-[20px_20px_0px_0px_rgba(255,204,0,1)] border border-[#ffcc00]"
+              className="rounded-lg shadow-[20px_20px_0px_0px_rgba(255,204,0,1)] border border-[#ffcc00] w-full h-auto object-cover"
             />
           </div>
           <div className="md:w-1/2">
@@ -134,7 +134,7 @@ export default function Home() {
             href="#" 
             className="inline-block bg-[#ffcc00] hover:bg-white text-black text-2xl font-extrabold px-16 py-8 uppercase tracking-widest transition-all shadow-[0_10px_40px_rgba(255,204,0,0.3)]"
           >
-            Hacerme socio ahora →
+            Hacerme socio agora →
           </a>
           <p className="mt-8 text-[#999999] font-bold uppercase tracking-widest">
             #BarcelonaSC #IdoloDelEcuador #NocheAmarilla
