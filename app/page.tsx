@@ -28,25 +28,20 @@ export default function Home() {
         <div className="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-t from-[#000000] to-transparent z-10" />
 
         <div className="relative z-20 container mx-auto px-4 text-center">
-          <div className="mb-8 flex justify-center">
-            <div className="relative group">
-              <div className="absolute -inset-4 bg-[#ffcc00]/20 blur-2xl rounded-full opacity-50 group-hover:opacity-100 transition-opacity" />
-              <img 
-                src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/assets/img/socios-logo-amarelo.svg" 
-                alt="Socios BSC Logo" 
-                className="relative h-24 md:h-32 w-auto drop-shadow-[0_0_15px_rgba(255,204,0,0.5)]"
-              />
-            </div>
-          </div>
-          
-          <div className="inline-block border border-[#ffcc00] text-[#ffcc00] px-6 py-1 font-semibold uppercase tracking-[0.3em] mb-6 rounded-sm bg-[#ffcc00]/5 backdrop-blur-sm shadow-[0_0_15px_rgba(255,204,0,0.2)]">
+          <div className="inline-block border border-[#ffcc00] text-[#ffcc00] px-6 py-1 font-semibold uppercase tracking-[0.3em] mb-8 rounded-sm bg-[#ffcc00]/5 backdrop-blur-sm shadow-[0_0_15px_rgba(255,204,0,0.2)]">
             UNA NOCHE HISTÓRICA
           </div>
           
-          <h1 className="text-6xl md:text-9xl font-extrabold uppercase italic tracking-tighter mb-4 drop-shadow-[0_5px_15px_rgba(0,0,0,1)]">
-            <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#ffffff] to-[#999999]">NOCHE</span> <br className="md:hidden" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#ffcc00] via-[#fff3a0] to-[#b8860b] drop-shadow-[0_0_30px_rgba(255,204,0,0.4)]">AMARILLA</span>
-          </h1>
+          <div className="mb-10 flex justify-center">
+            <div className="relative group">
+              <div className="absolute -inset-8 bg-[#ffcc00]/10 blur-3xl rounded-full opacity-50" />
+              <img 
+                src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Janeiro/1401/Logo_Noche_Amarilla_Full_Color_1.png" 
+                alt="Noche Amarilla Logo" 
+                className="relative w-full max-w-[320px] md:max-w-[600px] h-auto drop-shadow-[0_10px_30px_rgba(0,0,0,0.5)]"
+              />
+            </div>
+          </div>
           
           <p className="max-w-2xl mx-auto text-xl md:text-2xl font-normal text-[#cccccc] mb-10 leading-relaxed tracking-wide">
             El legado del <span className="text-[#ffcc00] font-semibold">Ídolo del Ecuador</span> brilla más que nunca. Sé parte de la leyenda.
@@ -125,7 +120,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA FINAL - 4º SCROLL (Antigo 5º) */}
+      {/* CTA FINAL - 4º SCROLL */}
       <section id="unirse" className="py-32 relative overflow-hidden bg-[#000000]">
         <div className="absolute inset-0 bg-[#ff0000]/5 z-0"></div>
         <div className="container mx-auto px-4 relative z-10 text-center">
