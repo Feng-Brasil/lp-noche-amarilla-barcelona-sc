@@ -103,22 +103,22 @@ export default function Home() {
             />
           </div>
           <div className="md:w-1/2">
-            <h2 className="text-4xl font-extrabold uppercase text-[#ffcc00] mb-6">El privilegio de ser SOCIO BSC</h2>
+            <h2 className="text-4xl font-extrabold uppercase text-[#ffcc00] mb-6">Beneficios de ser SOCIO BSC</h2>
             <p className="text-xl text-[#999999] mb-8 leading-relaxed font-bold">
-              La Noche Amarilla es para todos, mas la experiencia completa es <span className="text-white font-extrabold underline decoration-[#ff0000]">exclusiva</span> para quienes llevan el club en la sangue.
+              Ser socio es mucho más que un sentimiento, es tener el <span className="text-white font-extrabold underline decoration-[#ff0000]">control total</span> de tu pasión y apoyar directamente al crecimiento del club.
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Asegura tu lugar en todos los partidos de local de LigaPro y Copa Ecuador
+                <span className="text-[#ffcc00]">✓</span> Ingreso directo a todos los partidos de local sin comprar boletos
               </li>
               <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Más de 10 marcas aliadas con descontos exclusivos
+                <span className="text-[#ffcc00]">✓</span> Descuentos exclusivos en la tienda oficial y marcas aliadas
               </li>
               <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Experiencias exclusivas
+                <span className="text-[#ffcc00]">✓</span> Prioridad de compra para torneos internacionales
               </li>
               <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Formar parte oficial de la historia del Club
+                <span className="text-[#ffcc00]">✓</span> Voz y voto en las decisiones institucionales del club
               </li>
             </ul>
           </div>
