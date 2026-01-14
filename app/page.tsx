@@ -21,7 +21,7 @@ export default function Home() {
             />
           </div>
           <div className="inline-block bg-[#ffcc00] text-[#000000] px-4 py-1 font-bold uppercase tracking-widest mb-6 rounded-sm">
-            El Evento del Año
+            SE VIENE LA
           </div>
           <h1 className="text-6xl md:text-8xl font-black uppercase italic tracking-tighter text-[#ffcc00] mb-4 drop-shadow-2xl">
             NOCHE <span className="text-white">AMARILLA</span>
@@ -57,7 +57,7 @@ export default function Home() {
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#1f1f1f] transition-colors">
               <span className="text-4xl mb-4 block">⭐</span>
               <h3 className="text-2xl font-bold mb-3 text-white">Invitado de Honor</h3>
-              <p className="text-[#999999]">Una leyenda del fútbol mundial se viste de amarillo para jugar con nosotros. ¡No te lo puedes perder!</p>
+              <p className="text-[#999999]">Una leyenda del futebol mundial se viste de amarillo para jugar con nosotros. ¡No te lo puedes perder!</p>
             </div>
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#1f1f1f] transition-colors">
               <span className="text-4xl mb-4 block">🎤</span>
