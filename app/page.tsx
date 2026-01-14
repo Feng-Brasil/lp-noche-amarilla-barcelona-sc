@@ -13,6 +13,13 @@ export default function Home() {
         </div>
 
         <div className="relative z-20 container mx-auto px-4 text-center">
+          <div className="mb-8 flex justify-center">
+            <img 
+              src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/assets/img/socios-logo-amarelo.svg" 
+              alt="Socios BSC Logo" 
+              className="h-24 md:h-32 w-auto drop-shadow-2xl"
+            />
+          </div>
           <div className="inline-block bg-[#ffcc00] text-[#000000] px-4 py-1 font-bold uppercase tracking-widest mb-6 rounded-sm">
             El Evento del Año
           </div>
@@ -74,7 +81,7 @@ export default function Home() {
           <div className="md:w-1/2">
             <h2 className="text-4xl font-black uppercase italic text-[#ffcc00] mb-6">El privilegio de ser Sócio BSC</h2>
             <p className="text-xl text-[#999999] mb-8 leading-relaxed">
-              La Noche Amarilla es para todos, pero la experiencia completa es <span className="text-white font-bold italic underline decoration-[#ff0000]">exclusiva</span> para quienes llevan el club en la sangre.
+              La Noche Amarilla es para todos, pero la experiencia completa es <span className="text-white font-bold italic underline decoration-[#ff0000]">exclusiva</span> para quienes llevan el club en la sangue.
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-center gap-3 text-lg font-bold">
@@ -143,7 +150,13 @@ export default function Home() {
       {/* FOOTER */}
       <footer className="py-12 bg-[#000000] border-t border-[#333333] text-center">
         <div className="container mx-auto px-4">
-          <div className="text-3xl font-black text-[#ffcc00] italic mb-6">SÓCIOS BSC</div>
+          <div className="flex justify-center mb-6">
+            <img 
+              src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/assets/img/socios-logo-amarelo.svg" 
+              alt="Socios BSC Logo" 
+              className="h-16 w-auto"
+            />
+          </div>
           <p className="text-[#999999] text-sm max-w-md mx-auto">
             © 2024 Barcelona Sporting Club. Todos los derechos reservados. 
             El club más grande del Ecuador te espera.
