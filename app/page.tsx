@@ -52,7 +52,7 @@ export default function Home() {
               href="#unirse" 
               className="group relative bg-gradient-to-r from-[#ffcc00] to-[#b8860b] text-black font-extrabold px-12 py-6 rounded-none uppercase tracking-wider transition-all hover:scale-105 shadow-[0_0_30px_rgba(255,204,0,0.3)] overflow-hidden"
             >
-              <span className="relative z-10">Hacerme socio y vivir la historia</span>
+              <span className="relative z-10">Hacerme socio y vivir la história</span>
               <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500 skew-x-12" />
             </a>
           </div>
@@ -124,7 +124,7 @@ export default function Home() {
       <section id="unirse" className="py-32 relative overflow-hidden bg-[#000000]">
         <div className="absolute inset-0 bg-[#ff0000]/5 z-0"></div>
         <div className="container mx-auto px-4 relative z-10 text-center">
-          <h2 className="text-5xl md:text-7xl font-extrabold uppercase text-white mb-8 drop-shadow-lg">
+          <h2 className="text-5xl md:text-7xl font-extrabold uppercase text-white mb-8 drop-shadow-lg leading-[1.3] md:leading-[1.4]">
             ¿LISTO PARA HACER <span className="text-[#ffcc00]">HISTORIA?</span>
           </h2>
           <p className="text-2xl md:text-3xl font-bold text-[#999999] mb-12 max-w-3xl mx-auto">
