@@ -49,7 +49,7 @@ export default function Home() {
           </div>
           
           <p className="max-w-2xl mx-auto text-xl md:text-2xl font-bold text-[#cccccc] mb-10 leading-relaxed tracking-wide">
-            El legado del <span className="text-[#ffcc00] font-extrabold">Ídolo del Ecuador</span> brilla más que nunca. Sé parte de la legenda.
+            El legado del <span className="text-[#ffcc00] font-extrabold">Ídolo del Ecuador</span> brilla más que nunca. Sé parte de la leyenda.
           </p>
           
           <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
@@ -105,7 +105,7 @@ export default function Home() {
           <div className="md:w-1/2">
             <h2 className="text-4xl font-extrabold uppercase text-[#ffcc00] mb-6">Beneficios de ser SOCIO BSC</h2>
             <p className="text-xl text-[#999999] mb-8 leading-relaxed font-bold">
-              La Noche Amarilla es para todos, pero la experiencia completa es exclusiva para quienes llevan el Club en la sangue.
+              La Noche Amarilla es para todos, mas la experiencia completa es exclusiva para quienes llevan el Club en la sangue.
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-center gap-3 text-lg font-bold">
