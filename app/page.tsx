@@ -1,40 +1,56 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#171717] text-[#ffffff] font-sans selection:bg-[#ffcc00] selection:text-[#000000]">
-      {/* HERO SECTION - 1º SCROLL */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden border-b-4 border-[#ffcc00]">
+      {/* HERO SECTION - 1º SCROLL (MODIFICADO PARA PRETO/OURO PREMIUM) */}
+      <section className="relative h-screen flex items-center justify-center overflow-hidden border-b-4 border-[#ffcc00] bg-[#000000]">
+        {/* Background com partículas e brilho */}
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-t from-[#171717] via-[#171717]/60 to-transparent z-10" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#ffcc00]/10 via-transparent to-transparent opacity-60" />
+          <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-30 mix-blend-screen" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black z-10" />
           <img 
             src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/assets/img/Home_Deslogada_2024/bg-scroll-3.png" 
             alt="Estadio Monumental" 
-            className="w-full h-full object-cover opacity-40 grayscale-[0.5]"
+            className="w-full h-full object-cover opacity-20 grayscale"
           />
         </div>
 
+        {/* Detalhes de brilho dourado nas bordas */}
+        <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-[#ffcc00]/20 to-transparent opacity-30" />
+        <div className="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-t from-[#000000] to-transparent z-10" />
+
         <div className="relative z-20 container mx-auto px-4 text-center">
           <div className="mb-8 flex justify-center">
-            <img 
-              src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/assets/img/socios-logo-amarelo.svg" 
-              alt="Socios BSC Logo" 
-              className="h-24 md:h-32 w-auto drop-shadow-2xl"
-            />
+            <div className="relative group">
+              <div className="absolute -inset-4 bg-[#ffcc00]/20 blur-2xl rounded-full opacity-50 group-hover:opacity-100 transition-opacity" />
+              <img 
+                src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/assets/img/socios-logo-amarelo.svg" 
+                alt="Socios BSC Logo" 
+                className="relative h-24 md:h-32 w-auto drop-shadow-[0_0_15px_rgba(255,204,0,0.5)]"
+              />
+            </div>
           </div>
-          <div className="inline-block bg-[#ffcc00] text-[#000000] px-4 py-1 font-bold uppercase tracking-widest mb-6 rounded-sm">
-            SE VIENE LA
+          
+          <div className="inline-block border border-[#ffcc00] text-[#ffcc00] px-6 py-1 font-bold uppercase tracking-[0.3em] mb-6 rounded-sm bg-[#ffcc00]/5 backdrop-blur-sm shadow-[0_0_15px_rgba(255,204,0,0.2)]">
+            UNA NOCHE HISTÓRICA
           </div>
-          <h1 className="text-6xl md:text-8xl font-black uppercase italic tracking-tighter text-[#ffcc00] mb-4 drop-shadow-2xl">
-            NOCHE <span className="text-white">AMARILLA</span>
+          
+          <h1 className="text-6xl md:text-9xl font-black uppercase italic tracking-tighter mb-4 drop-shadow-[0_5px_15px_rgba(0,0,0,1)]">
+            <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#ffffff] to-[#999999]">NOCHE</span> <br className="md:hidden" />
+            <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#ffcc00] via-[#fff3a0] to-[#b8860b] drop-shadow-[0_0_30px_rgba(255,204,0,0.4)]">AMARILLA</span>
           </h1>
-          <p className="max-w-2xl mx-auto text-xl md:text-2xl font-medium text-[#999999] mb-10 leading-relaxed">
-            ¡La fiesta del <span className="text-[#ffcc00]">Ídolo del Ecuador</span> te espera!
+          
+          <p className="max-w-2xl mx-auto text-xl md:text-2xl font-light text-[#cccccc] mb-10 leading-relaxed tracking-wide">
+            El legado del <span className="text-[#ffcc00] font-bold">Ídolo del Ecuador</span> brilla más que nunca. Sé parte de la leyenda.
           </p>
-          <div className="flex flex-col md:flex-row gap-4 justify-center">
+          
+          <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
             <a 
               href="#unirse" 
-              className="bg-[#ff0000] hover:bg-[#cc0000] text-white font-black px-10 py-5 rounded-none uppercase tracking-wider transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(255,0,0,0.4)]"
+              className="group relative bg-gradient-to-r from-[#ffcc00] to-[#b8860b] text-black font-black px-12 py-6 rounded-none uppercase tracking-wider transition-all hover:scale-105 shadow-[0_0_30px_rgba(255,204,0,0.3)] overflow-hidden"
             >
-              Hacerme socio y vivir la Noche Amarilla
+              <span className="relative z-10">Hacerme socio y vivir la historia</span>
+              <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500 skew-x-12" />
             </a>
           </div>
         </div>
@@ -125,7 +141,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA FINAL - 5º SCROLL (MODIFICADO PARA BACKGROUND PRETO) */}
+      {/* CTA FINAL - 5º SCROLL */}
       <section id="unirse" className="py-32 relative overflow-hidden bg-[#000000]">
         <div className="absolute inset-0 bg-[#ff0000]/5 z-0"></div>
         <div className="container mx-auto px-4 relative z-10 text-center">
