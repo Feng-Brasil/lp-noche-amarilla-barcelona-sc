@@ -79,7 +79,7 @@ export default function Home() {
             />
           </div>
           <div className="md:w-1/2">
-            <h2 className="text-4xl font-black uppercase italic text-[#ffcc00] mb-6">El privilegio de ser Sócio BSC</h2>
+            <h2 className="text-4xl font-black uppercase italic text-[#ffcc00] mb-6">El privilegio de ser SOCIO BSC</h2>
             <p className="text-xl text-[#999999] mb-8 leading-relaxed">
               La Noche Amarilla es para todos, pero la experiencia completa es <span className="text-white font-bold italic underline decoration-[#ff0000]">exclusiva</span> para quienes llevan el club en la sangue.
             </p>
