@@ -63,7 +63,7 @@ export default function Home() {
       <section className="py-24 bg-[#000000]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-extrabold uppercase italic text-[#ffcc00] mb-4">Lo que te espera en nuestra casa</h2>
+            <h2 className="text-4xl font-extrabold uppercase text-[#ffcc00] mb-4">Lo que te espera en nuestra casa</h2>
             <div className="h-1 w-24 bg-[#ff0000] mx-auto"></div>
           </div>
           
@@ -98,9 +98,9 @@ export default function Home() {
             />
           </div>
           <div className="md:w-1/2">
-            <h2 className="text-4xl font-extrabold uppercase italic text-[#ffcc00] mb-6">El privilegio de ser SOCIO BSC</h2>
+            <h2 className="text-4xl font-extrabold uppercase text-[#ffcc00] mb-6">El privilegio de ser SOCIO BSC</h2>
             <p className="text-xl text-[#999999] mb-8 leading-relaxed font-normal">
-              La Noche Amarilla es para todos, pero la experiencia completa es <span className="text-white font-semibold italic underline decoration-[#ff0000]">exclusiva</span> para quienes llevan el club en la sangue.
+              La Noche Amarilla es para todos, pero la experiencia completa es <span className="text-white font-semibold underline decoration-[#ff0000]">exclusiva</span> para quienes llevan el club en la sangue.
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-center gap-3 text-lg font-semibold">
@@ -124,10 +124,10 @@ export default function Home() {
       <section id="unirse" className="py-32 relative overflow-hidden bg-[#000000]">
         <div className="absolute inset-0 bg-[#ff0000]/5 z-0"></div>
         <div className="container mx-auto px-4 relative z-10 text-center">
-          <h2 className="text-5xl md:text-7xl font-extrabold uppercase italic text-white mb-8 drop-shadow-lg">
+          <h2 className="text-5xl md:text-7xl font-extrabold uppercase text-white mb-8 drop-shadow-lg">
             ¿LISTO PARA HACER <span className="text-[#ffcc00]">HISTORIA?</span>
           </h2>
-          <p className="text-2xl md:text-3xl font-semibold text-[#999999] mb-12 max-w-3xl mx-auto italic">
+          <p className="text-2xl md:text-3xl font-semibold text-[#999999] mb-12 max-w-3xl mx-auto">
             No dejes que te lo cuenten. Sé protagonista de la Noche Amarilla y del futuro del Ídolo.
           </p>
           <a 
