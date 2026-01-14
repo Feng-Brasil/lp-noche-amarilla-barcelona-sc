@@ -55,9 +55,9 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
             <a 
               href="#unirse" 
-              className="group relative bg-gradient-to-r from-[#ffcc00] to-[#b8860b] text-black font-bold px-12 py-6 rounded-none uppercase tracking-wider transition-all hover:scale-105 shadow-[0_0_30px_rgba(255,204,0,0.3)] overflow-hidden"
+              className="group relative bg-gradient-to-r from-[#ffcc00] to-[#b8860b] text-black font-extrabold px-12 py-6 rounded-none uppercase tracking-wider transition-all hover:scale-105 shadow-[0_0_30px_rgba(255,204,0,0.3)] overflow-hidden"
             >
-              <span className="relative z-10">Hacerme socio y vivir la história</span>
+              <span className="relative z-10">HACERME SOCIO Y VIVIR LA HISTORIA</span>
               <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500 skew-x-12" />
             </a>
           </div>
@@ -105,7 +105,7 @@ export default function Home() {
           <div className="md:w-1/2">
             <h2 className="text-4xl font-extrabold uppercase text-[#ffcc00] mb-6">Beneficios de ser SOCIO BSC</h2>
             <p className="text-xl text-[#999999] mb-8 leading-relaxed font-bold">
-              La Noche Amarilla es para todos, mas la experiencia completa es exclusiva para quienes llevan el club en la sangre.
+              La Noche Amarilla es para todos, mas la experiencia completa es exclusiva para quienes llevan el club en la sangue.
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-center gap-3 text-lg font-bold">
@@ -150,9 +150,9 @@ export default function Home() {
           </p>
           <a 
             href="#" 
-            className="inline-block bg-[#ffcc00] hover:bg-white text-black text-2xl font-bold px-16 py-8 uppercase tracking-widest transition-all shadow-[0_10px_40px_rgba(255,204,0,0.3)]"
+            className="inline-block bg-[#ffcc00] hover:bg-white text-black text-2xl font-extrabold px-16 py-8 uppercase tracking-widest transition-all shadow-[0_10px_40px_rgba(255,204,0,0.3)]"
           >
-            Hacerme socio agora →
+            HACERME SOCIO AHORA →
           </a>
           <p className="mt-8 text-[#999999] font-bold uppercase tracking-widest">
             #BarcelonaSC #IdoloDelEcuador #NocheAmarilla
