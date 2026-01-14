@@ -76,7 +76,7 @@ export default function Home() {
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#1f1f1f] transition-colors">
               <span className="text-4xl mb-4 block">⚽</span>
               <h3 className="text-2xl font-semibold mb-3 text-white">Presentación Oficial</h3>
-              <p className="text-[#999999] font-normal">Conoce de cerca a las nuevas incorporaciones y al plantel que representará a la institución en los torneos de esta temporada.</p>
+              <p className="text-[#999999] font-normal">Conoce de cerca a las novas incorporaciones y al plantel que representará a la institución en los torneos de esta temporada.</p>
             </div>
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#1f1f1f] transition-colors">
               <span className="text-4xl mb-4 block">⭐</span>
@@ -105,20 +105,20 @@ export default function Home() {
           <div className="md:w-1/2">
             <h2 className="text-4xl font-extrabold uppercase italic text-[#ffcc00] mb-6">El privilegio de ser SOCIO BSC</h2>
             <p className="text-xl text-[#999999] mb-8 leading-relaxed font-normal">
-              La Noche Amarilla es para todos, pero la experiencia completa es <span className="text-white font-semibold italic underline decoration-[#ff0000]">exclusiva</span> para quienes llevan el club en la sangue.
+              La Noche Amarilla es para todos, pero la experiencia completa es <span className="text-white font-semibold italic underline decoration-[#ff0000]">exclusiva</span> para quienes llevan el club en la sangre.
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-center gap-3 text-lg font-semibold">
-                <span className="text-[#ffcc00]">✓</span> Acceso asegurado a los partidos de LigaPro y Copa Ecuador
+                <span className="text-[#ffcc00]">✓</span> Asegura tu lugar en todos los partidos de local de LigaPro y Copa Ecuador
               </li>
               <li className="flex items-center gap-3 text-lg font-semibold">
-                <span className="text-[#ffcc00]">✓</span> Descuentos especiais en indumentaria y produtos oficiais
+                <span className="text-[#ffcc00]">✓</span> Más de 10 marcas aliadas con descuentos exclusivos
               </li>
               <li className="flex items-center gap-3 text-lg font-semibold">
-                <span className="text-[#ffcc00]">✓</span> Grandes beneficios en nuestra red de comercios aliados
+                <span className="text-[#ffcc00]">✓</span> Experiencias exclusivas
               </li>
               <li className="flex items-center gap-3 text-lg font-semibold">
-                <span className="text-[#ffcc00]">✓</span> Experiencias únicas y exclusivas junto al Ídolo del Astillero
+                <span className="text-[#ffcc00]">✓</span> Formar parte oficial de la historia del Club
               </li>
             </ul>
           </div>
