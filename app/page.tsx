@@ -88,7 +88,7 @@ export default function Home() {
                 <span className="text-[#ffcc00]">✓</span> Acceso asegurado a los partidos de LigaPro y Copa Ecuador
               </li>
               <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Descuentos especiales en indumentaria y produtos oficiales
+                <span className="text-[#ffcc00]">✓</span> Descuentos especiales en indumentaria y produtos oficiais
               </li>
               <li className="flex items-center gap-3 text-lg font-bold">
                 <span className="text-[#ffcc00]">✓</span> Grandes beneficios en nuestra red de comercios aliados
@@ -101,23 +101,23 @@ export default function Home() {
         </div>
       </section>
 
-      {/* PROVAS DE VALOR */}
+      {/* PROVAS DE VALOR (QUARTO SCROLL) */}
       <section className="py-24 bg-[#ffcc00] text-[#000000]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-black uppercase italic tracking-tighter mb-4">MÁS QUE UN HINCHA, UN DUEÑO</h2>
-            <p className="text-xl font-bold opacity-80 uppercase tracking-widest italic">Únete a la familia más grande del continente</p>
+            <h2 className="text-5xl font-black uppercase italic tracking-tighter mb-4">PASA DE SER HINCHA A SER SOCIO</h2>
+            <p className="text-xl font-bold opacity-80 uppercase tracking-widest italic">Únete a la familia más grande del Ecuador</p>
           </div>
           
           <div className="grid md:grid-cols-4 gap-6">
             {[
-              { title: "PERTENECER", desc: "Forma parte oficial de la historia del club." },
-              { title: "PRIORIDAD", desc: "Asegura tu lugar en todos los Clásicos y finales." },
-              { title: "BENEFICIOS", desc: "Red de descuentos en más de 200 marcas aliadas." },
-              { title: "PROTAGONISMO", desc: "Voz y voto en las decisiones del club." }
+              { title: "Pertenecer", desc: "Formar parte oficial de la historia del Club" },
+              { title: "Prioridad", desc: "Asegura tu lugar en todos los partidos de local de LigaPro y Copa Ecuador" },
+              { title: "Beneficios", desc: "Más de 10 marcas aliadas con descuentos exclusivos" },
+              { title: "Protagonismo", desc: "Voz y voto como parte del Ídolo (desde el 2do año)" }
             ].map((item, idx) => (
               <div key={idx} className="bg-black/5 p-6 border-2 border-black/10 rounded-sm">
-                <h4 className="text-2xl font-black mb-2 italic">{item.title}</h4>
+                <h4 className="text-2xl font-black mb-2 italic uppercase">{item.title}</h4>
                 <p className="font-bold leading-tight">{item.desc}</p>
               </div>
             ))}
