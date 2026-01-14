@@ -11,8 +11,13 @@ export default function Home() {
     <main className={`${montserrat.className} min-h-screen bg-[#171717] text-[#ffffff] selection:bg-[#ffcc00] selection:text-[#000000]`}>
       {/* HERO SECTION - 1º SCROLL */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden border-b-4 border-[#ffcc00] bg-[#000000]">
-        {/* Background com partículas e brilho */}
+        {/* Background com partículas e brilhos dourados adicionados */}
         <div className="absolute inset-0 z-0">
+          {/* Brilhos Dourados Difusos */}
+          <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-[#ffcc00]/20 blur-[120px] rounded-full" />
+          <div className="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] bg-[#ffcc00]/15 blur-[120px] rounded-full" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60%] h-[40%] bg-[#ffcc00]/10 blur-[150px] rounded-full" />
+          
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#ffcc00]/10 via-transparent to-transparent opacity-60" />
           <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-30 mix-blend-screen" />
           <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black z-10" />
@@ -107,7 +112,7 @@ export default function Home() {
                 <span className="text-[#ffcc00]">✓</span> Asegura tu lugar en todos los partidos de local de LigaPro y Copa Ecuador
               </li>
               <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Más de 10 marcas aliadas con descuentos exclusivos
+                <span className="text-[#ffcc00]">✓</span> Más de 10 marcas aliadas con descontos exclusivos
               </li>
               <li className="flex items-center gap-3 text-lg font-bold">
                 <span className="text-[#ffcc00]">✓</span> Experiencias exclusivas
@@ -122,6 +127,13 @@ export default function Home() {
 
       {/* CTA FINAL - 4º SCROLL */}
       <section id="unirse" className="py-32 relative overflow-hidden bg-[#000000]">
+        {/* Brilhos Dourados de Background */}
+        <div className="absolute inset-0 z-0">
+          <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[40%] h-[60%] bg-[#ffcc00]/10 blur-[100px] rounded-full" />
+          <div className="absolute top-1/2 right-0 -translate-y-1/2 w-[40%] h-[60%] bg-[#ffcc00]/10 blur-[100px] rounded-full" />
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[80%] h-[20%] bg-[#ffcc00]/5 blur-[80px]" />
+        </div>
+        
         <div className="absolute inset-0 bg-[#ff0000]/5 z-0"></div>
         <div className="container mx-auto px-4 relative z-10 text-center">
           <h2 className="text-5xl md:text-7xl font-extrabold uppercase text-white mb-8 drop-shadow-lg leading-[1.3] md:leading-[1.4]">
