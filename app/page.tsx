@@ -105,7 +105,7 @@ export default function Home() {
           <div className="md:w-1/2">
             <h2 className="text-4xl font-extrabold uppercase italic text-[#ffcc00] mb-6">El privilegio de ser SOCIO BSC</h2>
             <p className="text-xl text-[#999999] mb-8 leading-relaxed font-normal">
-              La Noche Amarilla es para todos, pero la experiencia completa es <span className="text-white font-semibold italic underline decoration-[#ff0000]">exclusiva</span> para quienes llevan el club en la sangre.
+              La Noche Amarilla es para todos, pero la experiencia completa es <span className="text-white font-semibold italic underline decoration-[#ff0000]">exclusiva</span> para quienes llevan el club en la sangue.
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-center gap-3 text-lg font-semibold">
@@ -125,31 +125,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* PROVAS DE VALOR - 4º SCROLL */}
-      <section className="py-24 bg-[#ffcc00] text-[#000000]">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-5xl font-extrabold uppercase italic tracking-tighter mb-4">PASA DE SER HINCHA A SER SOCIO</h2>
-            <p className="text-xl font-semibold opacity-80 uppercase tracking-widest italic">Únete a la familia más grande del Ecuador</p>
-          </div>
-          
-          <div className="grid md:grid-cols-4 gap-6">
-            {[
-              { title: "Pertenecer", desc: "Formar parte oficial de la historia del Club" },
-              { title: "Prioridad", desc: "Asegura tu lugar en todos los partidos de local de LigaPro y Copa Ecuador" },
-              { title: "Beneficios", desc: "Más de 10 marcas aliadas con descuentos exclusivos" },
-              { title: "Protagonismo", desc: "Voz y voto como parte del Ídolo (desde el 2do año)" }
-            ].map((item, idx) => (
-              <div key={idx} className="bg-black/5 p-6 border-2 border-black/10 rounded-sm">
-                <h4 className="text-2xl font-extrabold mb-2 italic uppercase">{item.title}</h4>
-                <p className="font-semibold leading-tight">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CTA FINAL - 5º SCROLL */}
+      {/* CTA FINAL - 4º SCROLL (Antigo 5º) */}
       <section id="unirse" className="py-32 relative overflow-hidden bg-[#000000]">
         <div className="absolute inset-0 bg-[#ff0000]/5 z-0"></div>
         <div className="container mx-auto px-4 relative z-10 text-center">
