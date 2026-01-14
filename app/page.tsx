@@ -105,7 +105,7 @@ export default function Home() {
           <div className="md:w-1/2">
             <h2 className="text-4xl font-extrabold uppercase text-[#ffcc00] mb-6">Beneficios de ser SOCIO BSC</h2>
             <p className="text-xl text-[#999999] mb-8 leading-relaxed font-bold">
-              Ser socio es mucho más que un sentimiento, es tener el <span className="text-white font-extrabold underline decoration-[#ff0000]">control total</span> de tu pasión y apoyar directamente al crecimiento del club.
+              Ser socio es much o más que un sentimiento, es tener el <span className="text-white font-extrabold underline decoration-[#ff0000]">control total</span> de tu pasión y apoyar directamente al crescimento del club.
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-center gap-3 text-lg font-bold">
