@@ -76,7 +76,7 @@ export default function Home() {
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#1f1f1f] transition-colors">
               <span className="text-4xl mb-4 block">⚽</span>
               <h3 className="text-2xl font-bold mb-3 text-white">Presentación Oficial</h3>
-              <p className="text-[#999999] font-bold">Conoce de cerca a las novas incorporaciones y al plantel que representará a la institución en los torneos de esta temporada.</p>
+              <p className="text-[#999999] font-bold">Conoce de cerca a las novas incorporaciones y al plantel que representará a la instituição en los torneos de esta temporada.</p>
             </div>
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#1f1f1f] transition-colors">
               <span className="text-4xl mb-4 block">⭐</span>
@@ -127,8 +127,14 @@ export default function Home() {
 
       {/* CTA FINAL - 4º SCROLL */}
       <section id="unirse" className="py-32 relative overflow-hidden bg-[#000000]">
-        {/* Brilhos Dourados de Background */}
+        {/* Background Image e Brilhos Dourados */}
         <div className="absolute inset-0 z-0">
+          <img 
+            src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Janeiro/1401/BSC_Scroll1-NocheAmarilla.png" 
+            alt="Estadio Monumental Background" 
+            className="w-full h-full object-cover opacity-30"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#000000] via-[#000000]/60 to-[#000000]" />
           <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[40%] h-[60%] bg-[#ffcc00]/10 blur-[100px] rounded-full" />
           <div className="absolute top-1/2 right-0 -translate-y-1/2 w-[40%] h-[60%] bg-[#ffcc00]/10 blur-[100px] rounded-full" />
           <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[80%] h-[20%] bg-[#ffcc00]/5 blur-[80px]" />
