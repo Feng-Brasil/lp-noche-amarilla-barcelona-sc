@@ -50,7 +50,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
             <a 
               href="#unirse" 
-              className="group relative bg-gradient-to-r from-[#ffcc00] to-[#b8860b] text-black font-extrabold px-12 py-6 rounded-none uppercase tracking-wider transition-all hover:scale-105 shadow-[0_0_30px_rgba(255,204,0,0.3)] overflow-hidden"
+              className="group relative bg-gradient-to-r from-[#ffcc00] to-[#b8860b] text-black font-bold px-12 py-6 rounded-none uppercase tracking-wider transition-all hover:scale-105 shadow-[0_0_30px_rgba(255,204,0,0.3)] overflow-hidden"
             >
               <span className="relative z-10">Hacerme socio y vivir la história</span>
               <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500 skew-x-12" />
@@ -132,7 +132,7 @@ export default function Home() {
           </p>
           <a 
             href="#" 
-            className="inline-block bg-[#ffcc00] hover:bg-white text-black text-2xl font-extrabold px-16 py-8 uppercase tracking-widest transition-all shadow-[0_10px_40px_rgba(255,204,0,0.3)]"
+            className="inline-block bg-[#ffcc00] hover:bg-white text-black text-2xl font-bold px-16 py-8 uppercase tracking-widest transition-all shadow-[0_10px_40px_rgba(255,204,0,0.3)]"
           >
             Hacerme socio agora →
           </a>
