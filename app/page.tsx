@@ -46,7 +46,7 @@ export default function Home() {
           </div>
           
           <p className="max-w-2xl mx-auto text-xl md:text-2xl font-bold text-[#cccccc] mb-10 leading-relaxed tracking-wide">
-            El legado del <span className="text-[#ffcc00] font-extrabold">Ídolo del Ecuador</span> brilla más que nunca. Sé parte de la leyenda.
+            El legado del <span className="text-[#ffcc00] font-extrabold">Ídolo del Ecuador</span> brilla más que nunca.
           </p>
           
           <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
