@@ -89,41 +89,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SEÇÃO FIXA DE ALTO IMPACTO - 3º SCROLL */}
-      <section className="relative w-full py-20 bg-[#000000] border-y-4 border-[#ffcc00] overflow-hidden">
-        {/* Elementos gráficos de fundo */}
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute top-0 left-1/4 w-px h-full bg-gradient-to-b from-transparent via-[#ffcc00] to-transparent" />
-          <div className="absolute top-0 right-1/4 w-px h-full bg-gradient-to-b from-transparent via-[#ffcc00] to-transparent" />
-          <div className="absolute top-1/2 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#ffcc00] to-transparent" />
-        </div>
-        
-        <div className="absolute top-5 left-10 text-[#ffcc00] opacity-30 text-2xl">★</div>
-        <div className="absolute bottom-5 right-10 text-[#ffcc00] opacity-30 text-2xl">★</div>
-        <div className="absolute top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 w-[600px] h-[200px] bg-[#ffcc00]/5 blur-[100px] rounded-full" />
-
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="flex flex-col items-center justify-center text-center gap-6">
-            <h2 className="text-3xl md:text-5xl lg:text-6xl font-black text-white leading-tight max-w-6xl uppercase tracking-tighter">
-              ¡SOCIOS BSC TIENEN <br className="hidden md:block" />
-              <span className="text-[#ffcc00] text-6xl md:text-8xl lg:text-9xl block my-4 drop-shadow-[0_0_30px_rgba(255,204,0,0.6)] font-[900]">
-                100% DE DESCUENTO
-              </span> 
-              EN LA ENTRADA PARA VIVIR LA HISTÓRICA NOCHE AMARILLA!
-            </h2>
-            
-            <div className="h-px w-48 bg-gradient-to-r from-transparent via-[#ffcc00] to-transparent my-2" />
-            
-            <p className="text-xl md:text-3xl font-bold text-[#ffcc00] uppercase tracking-widest flex items-center gap-4">
-              <span className="text-white">★</span>
-              Haciéndote socio Amarillo, tienes 50% de descuento.
-              <span className="text-white">★</span>
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* EXPERIÊNCIA EXCLUSIVA PARA SÓCIOS - 4º SCROLL */}
+      {/* EXPERIÊNCIA EXCLUSIVA PARA SÓCIOS - 3º SCROLL (Anteriormente 4º) */}
       <section className="py-24 border-b border-[#333333]">
         <div className="container mx-auto px-4 flex flex-col md:gap-12 lg:flex-row items-center gap-16">
           <div className="md:w-1/2">
@@ -136,7 +102,7 @@ export default function Home() {
           <div className="md:w-1/2">
             <h2 className="text-4xl font-extrabold uppercase text-[#ffcc00] mb-6">Beneficios de ser SOCIO BSC</h2>
             <p className="text-xl text-[#999999] mb-8 leading-relaxed font-bold">
-              La Noche Amarilla es para todos, mas la experiencia completa es exclusiva para quienes llevan el Club en la sangre.
+              La Noche Amarilla es para todos, mas la experiencia completa es exclusiva para quienes llevan el Club en la sangue.
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-center gap-3 text-lg font-bold">
@@ -156,7 +122,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA FINAL - 5º SCROLL */}
+      {/* CTA FINAL - 4º SCROLL (Anteriormente 5º) */}
       <section id="unirse" className="py-32 relative overflow-hidden bg-[#000000]">
         <div className="absolute inset-0 z-0">
           <img 
