@@ -182,7 +182,7 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-10 text-center">
           <h2 className="flex flex-col items-center font-extrabold uppercase text-white mb-8 drop-shadow-lg">
             <span className="text-3xl md:text-5xl tracking-tight mb-2">¿LISTO PARA HACER</span>
-            <span className="text-6xl md:text-9xl text-[#ffcc00] leading-none">HISTORIA?</span>
+            <span className="text-6xl md:text-9xl text-[#ffcc00] leading-none" style={{ fontFamily: 'Arial Black, sans-serif' }}>HISTORIA?</span>
           </h2>
           <p className="text-2xl md:text-3xl font-bold text-[#999999] mb-12 max-w-3xl mx-auto">
             No dejes que te lo cuenten. Sé protagonista de la Noche Amarilla y del futuro del Ídolo.
