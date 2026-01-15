@@ -89,7 +89,40 @@ export default function Home() {
         </div>
       </section>
 
-      {/* EXPERIÊNCIA EXCLUSIVA PARA SÓCIOS - 3º SCROLL (Anteriormente 4º) */}
+      {/* SCROLL HIGHLIGHT - 3º SCROLL */}
+      <section className="relative w-full min-h-[60vh] flex items-center justify-center bg-[#000000] border-y-2 border-[#ffcc00]/30 overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-radial-gradient from-[#ffcc00]/10 via-transparent to-transparent blur-[100px]" />
+          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#ffcc00] to-transparent opacity-50" />
+          <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#ffcc00] to-transparent opacity-50" />
+        </div>
+
+        <div className="relative z-10 container mx-auto px-4 py-20 text-center">
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6 tracking-tighter">
+            ¡SOCIOS BSC TIENEN <span className="text-[#ffcc00] text-5xl md:text-7xl lg:text-8xl block mt-2 drop-shadow-[0_0_20px_rgba(255,204,0,0.4)]">100% DE DESCUENTO</span> EN LA ENTRADA PARA VIVIR LA HISTÓRICA NOCHE AMARILLA!
+          </h2>
+          
+          <p className="text-xl md:text-2xl font-semibold text-[#cccccc] mb-12 tracking-wide">
+            Haciéndote socio Amarillo, tienes <span className="text-[#ffcc00]">50% de descuento</span>.
+          </p>
+
+          <div className="flex justify-center">
+            <a 
+              href="#unirse" 
+              className="bg-[#ffcc00] hover:bg-[#e6b800] text-black text-xl md:text-2xl font-black px-16 py-6 rounded-none transition-all transform hover:scale-105 shadow-[0_0_40px_rgba(255,204,0,0.3)] border-2 border-[#ffcc00] hover:border-white"
+            >
+              QUIERO SER SOCIO
+            </a>
+          </div>
+        </div>
+
+        {/* Elementos gráficos sutis */}
+        <div className="absolute top-10 left-10 text-[#ffcc00]/20 text-4xl">★</div>
+        <div className="absolute bottom-10 right-10 text-[#ffcc00]/20 text-4xl">★</div>
+      </section>
+
+      {/* EXPERIÊNCIA EXCLUSIVA PARA SÓCIOS - 4º SCROLL */}
       <section className="py-24 border-b border-[#333333]">
         <div className="container mx-auto px-4 flex flex-col md:gap-12 lg:flex-row items-center gap-16">
           <div className="md:w-1/2">
@@ -122,7 +155,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA FINAL - 4º SCROLL (Anteriormente 5º) */}
+      {/* CTA FINAL - 5º SCROLL */}
       <section id="unirse" className="py-32 relative overflow-hidden bg-[#000000]">
         <div className="absolute inset-0 z-0">
           <img 
