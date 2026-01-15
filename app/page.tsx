@@ -78,7 +78,7 @@ export default function Home() {
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">⭐</span>
               <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Estrella Mundial</h3>
-              <p className="text-[#cccccc] font-bold">Barcelona recebe a una estrella mundial que se pone la amarilla para jugar con nosotros. Prepárate para vivir una noche histórica, de esas que solo Barcelona puede regalarte.</p>
+              <p className="text-[#cccccc] font-bold">Barcelona recebe a una estrella mundial que se pone la amarilla para jugar con nosotros. Prepárate para vivir una noche histórica, de esas que solo Barcelona pode regalarte.</p>
             </div>
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">🎤</span>
@@ -89,37 +89,53 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SCROLL HIGHLIGHT - 3º SCROLL */}
-      <section className="relative w-full min-h-[60vh] flex items-center justify-center bg-[#000000] border-y-2 border-[#ffcc00]/30 overflow-hidden">
+      {/* SCROLL HIGHLIGHT - 3º SCROLL (MODIFICADO) */}
+      <section className="relative w-full min-h-[80vh] flex items-center justify-center bg-[#000000] border-y-2 border-[#ffcc00]/30 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20" />
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-radial-gradient from-[#ffcc00]/10 via-transparent to-transparent blur-[100px]" />
-          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#ffcc00] to-transparent opacity-50" />
-          <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#ffcc00] to-transparent opacity-50" />
         </div>
 
-        <div className="relative z-10 container mx-auto px-4 py-20 text-center">
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6 tracking-tighter">
-            ¡SOCIOS BSC TIENEN <span className="text-[#ffcc00] text-5xl md:text-7xl lg:text-8xl block mt-2 drop-shadow-[0_0_20px_rgba(255,204,0,0.4)]">100% DE DESCUENTO</span> EN LA ENTRADA PARA VIVIR LA HISTÓRICA NOCHE AMARILLA!
-          </h2>
-          
-          <p className="text-xl md:text-2xl font-semibold text-[#cccccc] mb-12 tracking-wide">
-            Haciéndote socio Amarillo, tienes <span className="text-[#ffcc00]">50% de descuento</span>.
-          </p>
+        <div className="relative z-10 container mx-auto px-4 py-24 flex flex-col items-center">
+          {/* Micro Detalhe */}
+          <div className="flex items-center gap-2 mb-8">
+            <span className="text-xl">🎟️</span>
+            <span className="text-[#b8860b] font-extrabold tracking-[0.2em] text-sm md:text-base">
+              BENEFICIO EXCLUSIVO PARA SOCIOS
+            </span>
+          </div>
 
-          <div className="flex justify-center">
-            <a 
-              href="#unirse" 
-              className="bg-[#ffcc00] hover:bg-[#e6b800] text-black text-xl md:text-2xl font-black px-16 py-6 rounded-none transition-all transform hover:scale-105 shadow-[0_0_40px_rgba(255,204,0,0.3)] border-2 border-[#ffcc00] hover:border-white"
-            >
-              QUIERO SER SOCIO
-            </a>
+          <div className="max-w-4xl w-full text-center space-y-8">
+            <h2 className="flex flex-col items-center">
+              <span className="text-xl md:text-2xl font-bold text-white tracking-widest uppercase mb-2">
+                ¡SOCIOS BSC TIENEN
+              </span>
+              <span className="text-[#ffcc00] text-6xl md:text-8xl lg:text-9xl font-black leading-none drop-shadow-[0_0_30px_rgba(255,204,0,0.4)] my-4">
+                100% DE DESCUENTO
+              </span>
+              <span className="text-lg md:text-3xl font-bold text-white/90 tracking-tight max-w-2xl mx-auto">
+                EN SU ENTRADA PARA LA NOCHE AMARILLA
+              </span>
+            </h2>
+            
+            <p className="text-lg md:text-xl font-medium text-[#999999] max-w-md mx-auto leading-relaxed">
+              Haciéndote socio Amarillo, tienes <span className="text-[#ffcc00] font-bold">50% de descuento</span>.
+            </p>
+
+            <div className="pt-8">
+              <a 
+                href="#unirse" 
+                className="inline-block bg-[#ffcc00] hover:bg-[#e6b800] text-black text-xl md:text-3xl font-black px-12 md:px-20 py-6 md:py-8 transition-all transform hover:scale-105 shadow-[0_10px_40px_rgba(0,0,0,0.5),0_0_20px_rgba(255,204,0,0.2)] border-b-4 border-[#b8860b] active:border-b-0 active:translate-y-1"
+              >
+                QUIERO SER SOCIO AHORA
+              </a>
+            </div>
           </div>
         </div>
 
         {/* Elementos gráficos sutis */}
-        <div className="absolute top-10 left-10 text-[#ffcc00]/20 text-4xl">★</div>
-        <div className="absolute bottom-10 right-10 text-[#ffcc00]/20 text-4xl">★</div>
+        <div className="absolute top-10 left-10 text-[#ffcc00]/10 text-4xl">★</div>
+        <div className="absolute bottom-10 right-10 text-[#ffcc00]/10 text-4xl">★</div>
       </section>
 
       {/* EXPERIÊNCIA EXCLUSIVA PARA SÓCIOS - 4º SCROLL */}
@@ -164,9 +180,6 @@ export default function Home() {
             className="w-full h-full object-cover opacity-30"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#000000] via-[#000000]/80 to-[#000000]" />
-          <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[40%] h-[60%] bg-[#ffcc00]/10 blur-[100px] rounded-full" />
-          <div className="absolute top-1/2 right-0 -translate-y-1/2 w-[40%] h-[60%] bg-[#ffcc00]/10 blur-[100px] rounded-full" />
-          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[80%] h-[20%] bg-[#ffcc00]/5 blur-[80px]" />
         </div>
         
         <div className="container mx-auto px-4 relative z-10 text-center">
