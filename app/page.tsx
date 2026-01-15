@@ -99,14 +99,14 @@ export default function Home() {
           {/* Micro Detalhe */}
           <div className="flex items-center gap-2 mb-6">
             <span className="text-xl">🎟️</span>
-            <span className="text-[#000000] font-extrabold tracking-[0.2em] text-sm md:text-base">
-              BENEFICIO EXCLUSIVO PARA SOCIOS
+            <span className="text-[#000000] font-extrabold tracking-[0.2em] text-sm md:text-base uppercase">
+              SOLO SOCIOS BSC TIENEN
             </span>
           </div>
 
           <div className="max-w-4xl w-full text-center space-y-4">
             <h2 className="flex flex-col items-center">
-              <span className="text-[#000000] text-6xl md:text-8xl lg:text-9xl font-extrabold leading-none">
+              <span className="text-[#000000] text-6xl md:text-8xl lg:text-9xl font-extrabold leading-none" style={{ fontFamily: 'Arial Black, sans-serif' }}>
                 100%
               </span>
               <span className="text-[#ffffff] text-xl md:text-3xl lg:text-4xl font-bold tracking-tight uppercase mt-2">
