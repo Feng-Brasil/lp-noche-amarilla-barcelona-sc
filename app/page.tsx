@@ -83,13 +83,13 @@ export default function Home() {
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">🎤</span>
               <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Show Especial</h3>
-              <p className="text-[#cccccc] font-bold">Artistas internacionales, sorpresas y un espectacular show de fuegos artificiales para celebrar nuestra pasión. ¡Será uma locura que nadie querrá que le cuenten, todos querrán vivirla!</p>
+              <p className="text-[#cccccc] font-bold">Artistas internacionales, sorpresas y un espectacular show de fuegos artificiales para celebrar nuestra pasión. ¡Será uma locura que nadie querrá que le cuenten, todos querrão vivirla!</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* SCROLL HIGHLIGHT - 3º SCROLL (MODIFICADO) */}
+      {/* SCROLL HIGHLIGHT - 3º SCROLL */}
       <section className="relative w-full min-h-[60vh] flex items-center justify-center bg-[#ffcc00] border-y-2 border-[#000000]/10 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10" />
@@ -109,7 +109,7 @@ export default function Home() {
               <span className="text-[#000000] text-6xl md:text-8xl lg:text-9xl font-extrabold leading-none" style={{ fontFamily: 'Arial Black, sans-serif' }}>
                 100%
               </span>
-              <span className="text-[#ffffff] text-xl md:text-3xl lg:text-4xl font-bold tracking-tight uppercase mt-2">
+              <span className="text-[#000000] text-lg md:text-2xl lg:text-3xl font-bold tracking-tight uppercase mt-2">
                 de descuento en su entrada
               </span>
             </h2>
@@ -124,7 +124,7 @@ export default function Home() {
             </div>
 
             <div className="inline-block mt-4">
-              <p className="text-sm md:text-lg font-bold text-[#ffffff] uppercase tracking-tight">
+              <p className="text-sm md:text-lg font-bold text-[#000000]/60 uppercase tracking-tight">
                 *Socio Amarillo tiene 50% de desconto.
               </p>
             </div>
