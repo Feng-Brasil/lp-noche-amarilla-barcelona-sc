@@ -73,7 +73,7 @@ export default function Home() {
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">⚽</span>
               <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Presentación Oficial</h3>
-              <p className="text-[#cccccc] font-bold">Conoce de cerca a las nuevas incorporaciones y al plantel que representará a la institución en los torneos de esta temporada.</p>
+              <p className="text-[#cccccc] font-bold">Conoce de cerca a las novas incorporaciones y al plantel que representará a la institución en los torneos de esta temporada.</p>
             </div>
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">⭐</span>
@@ -89,44 +89,44 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SCROLL HIGHLIGHT - 3º SCROLL */}
-      <section className="relative w-full min-h-[80vh] flex items-center justify-center bg-[#ffcc00] border-y-2 border-[#000000]/10 overflow-hidden">
+      {/* SCROLL HIGHLIGHT - 3º SCROLL (MODIFICADO) */}
+      <section className="relative w-full min-h-[60vh] flex items-center justify-center bg-[#ffcc00] border-y-2 border-[#000000]/10 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10" />
         </div>
 
-        <div className="relative z-10 container mx-auto px-4 py-24 flex flex-col items-center">
+        <div className="relative z-10 container mx-auto px-4 py-12 flex flex-col items-center">
           {/* Micro Detalhe */}
-          <div className="flex items-center gap-2 mb-8">
+          <div className="flex items-center gap-2 mb-6">
             <span className="text-xl">🎟️</span>
             <span className="text-[#000000] font-extrabold tracking-[0.2em] text-sm md:text-base">
               BENEFICIO EXCLUSIVO PARA SOCIOS
             </span>
           </div>
 
-          <div className="max-w-4xl w-full text-center space-y-8">
+          <div className="max-w-4xl w-full text-center space-y-6">
             <h2 className="flex flex-col items-center">
-              <span className="text-xl md:text-2xl font-bold text-[#000000] tracking-widest uppercase mb-2">
+              <span className="text-xl md:text-2xl font-bold text-[#ffffff] tracking-widest uppercase mb-2">
                 ¡SOCIOS BSC TIENEN
               </span>
-              <span className="text-[#ffffff] text-6xl md:text-8xl lg:text-9xl font-black leading-none drop-shadow-[0_4px_10px_rgba(0,0,0,0.3)] my-4">
+              <span className="text-[#000000] text-5xl md:text-7xl lg:text-8xl font-black leading-none my-4">
                 100% DE DESCUENTO
               </span>
-              <span className="text-lg md:text-3xl font-bold text-[#000000] tracking-tight max-w-2xl mx-auto">
-                EN SU ENTRADA PARA LA NOCHE AMARILLA
+              <span className="text-lg md:text-3xl font-bold text-[#ffffff] tracking-tight max-w-2xl mx-auto uppercase">
+                EN SU ENTRADA
               </span>
             </h2>
             
             <div className="inline-block">
-              <p className="text-lg md:text-2xl font-black text-[#000000] uppercase tracking-tight">
-                *Socio Amarillo tiene <span className="text-[#ffffff] drop-shadow-[1px_1px_0px_#000000]">50% de descuento</span>.
+              <p className="text-sm md:text-lg font-bold text-[#ffffff] uppercase tracking-tight">
+                *Socio Amarillo tiene 50% de descuento.
               </p>
             </div>
 
-            <div className="pt-8">
+            <div className="pt-4">
               <a 
                 href="#unirse" 
-                className="inline-block bg-[#000000] hover:bg-[#171717] text-[#ffcc00] text-xl md:text-3xl font-black px-12 md:px-20 py-6 md:py-8 transition-all transform hover:scale-105 shadow-[0_10px_40px_rgba(0,0,0,0.3)] border-b-4 border-[#333333] active:border-b-0 active:translate-y-1"
+                className="inline-block bg-[#000000] hover:bg-[#171717] text-[#ffcc00] text-xl md:text-2xl font-black px-10 md:px-16 py-4 md:py-6 transition-all transform hover:scale-105 shadow-[0_10px_40px_rgba(0,0,0,0.3)] border-b-4 border-[#333333] active:border-b-0 active:translate-y-1"
               >
                 QUIERO SER SOCIO AHORA
               </a>
