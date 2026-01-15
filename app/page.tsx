@@ -89,36 +89,35 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SCROLL HIGHLIGHT - 3º SCROLL (MODIFICADO) */}
-      <section className="relative w-full min-h-[80vh] flex items-center justify-center bg-[#000000] border-y-2 border-[#ffcc00]/30 overflow-hidden">
+      {/* SCROLL HIGHLIGHT - 3º SCROLL */}
+      <section className="relative w-full min-h-[80vh] flex items-center justify-center bg-[#ffcc00] border-y-2 border-[#000000]/10 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20" />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-radial-gradient from-[#ffcc00]/10 via-transparent to-transparent blur-[100px]" />
+          <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10" />
         </div>
 
         <div className="relative z-10 container mx-auto px-4 py-24 flex flex-col items-center">
           {/* Micro Detalhe */}
           <div className="flex items-center gap-2 mb-8">
             <span className="text-xl">🎟️</span>
-            <span className="text-[#b8860b] font-extrabold tracking-[0.2em] text-sm md:text-base">
+            <span className="text-[#000000] font-extrabold tracking-[0.2em] text-sm md:text-base">
               BENEFICIO EXCLUSIVO PARA SOCIOS
             </span>
           </div>
 
           <div className="max-w-4xl w-full text-center space-y-8">
             <h2 className="flex flex-col items-center">
-              <span className="text-xl md:text-2xl font-bold text-white tracking-widest uppercase mb-2">
+              <span className="text-xl md:text-2xl font-bold text-[#000000] tracking-widest uppercase mb-2">
                 ¡SOCIOS BSC TIENEN
               </span>
-              <span className="text-[#ffcc00] text-6xl md:text-8xl lg:text-9xl font-black leading-none drop-shadow-[0_0_30px_rgba(255,204,0,0.4)] my-4">
+              <span className="text-[#ffffff] text-6xl md:text-8xl lg:text-9xl font-black leading-none drop-shadow-[0_4px_10px_rgba(0,0,0,0.3)] my-4">
                 100% DE DESCUENTO
               </span>
-              <span className="text-lg md:text-3xl font-bold text-white/90 tracking-tight max-w-2xl mx-auto">
+              <span className="text-lg md:text-3xl font-bold text-[#000000] tracking-tight max-w-2xl mx-auto">
                 EN SU ENTRADA PARA LA NOCHE AMARILLA
               </span>
             </h2>
             
-            <div className="bg-[#ffcc00] px-8 py-4 inline-block shadow-[0_0_20px_rgba(255,204,0,0.3)]">
+            <div className="inline-block">
               <p className="text-lg md:text-2xl font-black text-[#000000] uppercase tracking-tight">
                 *Socio Amarillo tiene <span className="text-[#ffffff] drop-shadow-[1px_1px_0px_#000000]">50% de descuento</span>.
               </p>
@@ -127,7 +126,7 @@ export default function Home() {
             <div className="pt-8">
               <a 
                 href="#unirse" 
-                className="inline-block bg-[#ffcc00] hover:bg-[#e6b800] text-black text-xl md:text-3xl font-black px-12 md:px-20 py-6 md:py-8 transition-all transform hover:scale-105 shadow-[0_10px_40px_rgba(0,0,0,0.5),0_0_20px_rgba(255,204,0,0.2)] border-b-4 border-[#b8860b] active:border-b-0 active:translate-y-1"
+                className="inline-block bg-[#000000] hover:bg-[#171717] text-[#ffcc00] text-xl md:text-3xl font-black px-12 md:px-20 py-6 md:py-8 transition-all transform hover:scale-105 shadow-[0_10px_40px_rgba(0,0,0,0.3)] border-b-4 border-[#333333] active:border-b-0 active:translate-y-1"
               >
                 QUIERO SER SOCIO AHORA
               </a>
@@ -136,8 +135,8 @@ export default function Home() {
         </div>
 
         {/* Elementos gráficos sutis */}
-        <div className="absolute top-10 left-10 text-[#ffcc00]/10 text-4xl">★</div>
-        <div className="absolute bottom-10 right-10 text-[#ffcc00]/10 text-4xl">★</div>
+        <div className="absolute top-10 left-10 text-[#000000]/10 text-4xl">★</div>
+        <div className="absolute bottom-10 right-10 text-[#000000]/10 text-4xl">★</div>
       </section>
 
       {/* EXPERIÊNCIA EXCLUSIVA PARA SÓCIOS - 4º SCROLL */}
