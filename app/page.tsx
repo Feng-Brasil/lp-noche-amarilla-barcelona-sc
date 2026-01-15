@@ -118,9 +118,11 @@ export default function Home() {
               </span>
             </h2>
             
-            <p className="text-lg md:text-xl font-medium text-[#999999] max-w-md mx-auto leading-relaxed">
-              Haciéndote socio Amarillo, tienes <span className="text-[#ffcc00] font-bold">50% de descuento</span>.
-            </p>
+            <div className="bg-[#ffcc00] px-8 py-4 inline-block shadow-[0_0_20px_rgba(255,204,0,0.3)]">
+              <p className="text-lg md:text-2xl font-black text-[#000000] uppercase tracking-tight">
+                *Socio Amarillo tiene <span className="text-[#ffffff] drop-shadow-[1px_1px_0px_#000000]">50% de descuento</span>.
+              </p>
+            </div>
 
             <div className="pt-8">
               <a 
