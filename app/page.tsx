@@ -55,7 +55,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
             <a 
               href="#unirse" 
-              className="group relative bg-gradient-to-r from-[#ffcc00] to-[#b8860b] text-black font-extrabold px-12 py-6 rounded-none uppercase tracking-wider transition-all hover:scale-105 shadow-[0_0_30px_rgba(255,204,0,0.3)] overflow-hidden"
+              className="group relative bg-gradient-to-r from-[#ffcc00] to-[#b8860b] text-black font-[800] px-12 py-6 rounded-none uppercase tracking-wider transition-all hover:scale-105 shadow-[0_0_30px_rgba(255,204,0,0.3)] overflow-hidden"
             >
               <span className="relative z-10">HACERME SOCIO Y VIVIR LA HISTORIA</span>
               <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500 skew-x-12" />
