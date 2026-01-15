@@ -104,14 +104,17 @@ export default function Home() {
             </span>
           </div>
 
-          <div className="max-w-4xl w-full text-center space-y-6">
+          <div className="max-w-4xl w-full text-center space-y-4">
             <h2 className="flex flex-col items-center">
-              <span className="text-[#000000] text-5xl md:text-7xl lg:text-8xl font-black leading-none my-4">
-                100% <span className="text-lg md:text-3xl font-bold text-[#ffffff] tracking-tight uppercase">DE DESCUENTO EN SU ENTRADA</span>
+              <span className="text-[#000000] text-6xl md:text-8xl lg:text-9xl font-extrabold leading-none">
+                100%
+              </span>
+              <span className="text-[#ffffff] text-xl md:text-3xl lg:text-4xl font-bold tracking-tight uppercase mt-2">
+                de descuento en su entrada
               </span>
             </h2>
 
-            <div className="pt-4">
+            <div className="pt-8">
               <a 
                 href="#unirse" 
                 className="inline-block bg-[#000000] hover:bg-[#171717] text-[#ffcc00] text-xl md:text-2xl font-black px-10 md:px-16 py-4 md:py-6 transition-all transform hover:scale-105 shadow-[0_10px_40px_rgba(0,0,0,0.3)] border-b-4 border-[#333333] active:border-b-0 active:translate-y-1"
@@ -122,7 +125,7 @@ export default function Home() {
 
             <div className="inline-block mt-4">
               <p className="text-sm md:text-lg font-bold text-[#ffffff] uppercase tracking-tight">
-                *Socio Amarillo tiene 50% de descuento.
+                *Socio Amarillo tiene 50% de desconto.
               </p>
             </div>
           </div>
