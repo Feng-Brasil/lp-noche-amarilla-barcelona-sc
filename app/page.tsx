@@ -11,9 +11,7 @@ export default function Home() {
     <main className={`${montserrat.className} min-h-screen bg-[#171717] text-[#ffffff] selection:bg-[#ffcc00] selection:text-[#000000]`}>
       {/* HERO SECTION - 1º SCROLL */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden border-b-4 border-[#ffcc00] bg-[#000000]">
-        {/* Background com partículas e brilhos dourados adicionados */}
         <div className="absolute inset-0 z-0">
-          {/* Brilhos Dourados Difusos */}
           <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-[#ffcc00]/20 blur-[120px] rounded-full" />
           <div className="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] bg-[#ffcc00]/15 blur-[120px] rounded-full" />
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60%] h-[40%] bg-[#ffcc00]/10 blur-[150px] rounded-full" />
@@ -28,7 +26,6 @@ export default function Home() {
           />
         </div>
 
-        {/* Detalhes de brilho dourado nas bordas */}
         <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-[#ffcc00]/20 to-transparent opacity-30" />
         <div className="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-t from-[#000000] to-transparent z-10" />
 
@@ -92,8 +89,51 @@ export default function Home() {
         </div>
       </section>
 
-      {/* EXPERIÊNCIA EXCLUSIVA PARA SÓCIOS - 3º SCROLL */}
-      <section className="py-24 border-y border-[#333333]">
+      {/* SCROLL HORIZONTAL ANIMADO - 3º SCROLL */}
+      <section className="relative py-16 bg-[#000000] overflow-hidden border-y-2 border-[#ffcc00]/30">
+        <style dangerouslySetInnerHTML={{ __html: `
+          @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+          }
+          .animate-marquee {
+            display: flex;
+            width: max-content;
+            animation: scroll 40s linear infinite;
+          }
+          .glow-text {
+            text-shadow: 0 0 20px rgba(255, 204, 0, 0.8), 0 0 40px rgba(255, 204, 0, 0.4);
+          }
+        `}} />
+        
+        <div className="animate-marquee whitespace-nowrap flex items-center">
+          {[1, 2].map((i) => (
+            <div key={i} className="flex items-center gap-12 px-6">
+              <span className="text-5xl md:text-7xl font-black text-white uppercase flex items-center gap-8">
+                ¡SOCIOS BSC TIENEN <span className="text-[#ffcc00] glow-text text-6xl md:text-8xl scale-110 inline-block mx-4">100% DE DESCUENTO</span> EN LA ENTRADA PARA VIVIR LA HISTÓRICA NOCHE AMARILLA!
+                <span className="text-[#ffcc00]">⚡</span>
+              </span>
+              <span className="text-4xl md:text-5xl font-bold text-[#ffcc00] uppercase flex items-center gap-8">
+                <span className="text-white">★</span>
+                Haciéndote socio Amarillo, tienes 50% de descuento.
+                <span className="text-white">🎫</span>
+              </span>
+              <span className="text-5xl md:text-7xl font-black text-white uppercase flex items-center gap-8">
+                ¡SOCIOS BSC TIENEN <span className="text-[#ffcc00] glow-text text-6xl md:text-8xl scale-110 inline-block mx-4">100% DE DESCUENTO</span> EN LA ENTRADA PARA VIVIR LA HISTÓRICA NOCHE AMARILLA!
+                <span className="text-[#ffcc00]">⚡</span>
+              </span>
+              <span className="text-4xl md:text-5xl font-bold text-[#ffcc00] uppercase flex items-center gap-8">
+                <span className="text-white">★</span>
+                Haciéndote socio Amarillo, tienes 50% de descuento.
+                <span className="text-white">🎫</span>
+              </span>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* EXPERIÊNCIA EXCLUSIVA PARA SÓCIOS - 4º SCROLL */}
+      <section className="py-24 border-b border-[#333333]">
         <div className="container mx-auto px-4 flex flex-col md:gap-12 lg:flex-row items-center gap-16">
           <div className="md:w-1/2">
             <img 
@@ -105,7 +145,7 @@ export default function Home() {
           <div className="md:w-1/2">
             <h2 className="text-4xl font-extrabold uppercase text-[#ffcc00] mb-6">Beneficios de ser SOCIO BSC</h2>
             <p className="text-xl text-[#999999] mb-8 leading-relaxed font-bold">
-              La Noche Amarilla es para todos, pero la experiencia completa es exclusiva para quienes llevan el Club en la sangre.
+              La Noche Amarilla es para todos, pero la experiencia completa es exclusiva para quienes llevan el Club en la sangue.
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-center gap-3 text-lg font-bold">
@@ -125,9 +165,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA FINAL - 4º SCROLL */}
+      {/* CTA FINAL - 5º SCROLL */}
       <section id="unirse" className="py-32 relative overflow-hidden bg-[#000000]">
-        {/* Background Image e Brilhos Dourados */}
         <div className="absolute inset-0 z-0">
           <img 
             src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Janeiro/1401/BSC_Scroll1-NocheAmarilla.png" 
