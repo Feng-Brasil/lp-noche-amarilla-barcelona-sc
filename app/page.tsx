@@ -110,7 +110,7 @@ export default function Home() {
                 100%
               </span>
               <span className="text-[#000000] text-lg md:text-2xl lg:text-3xl font-bold tracking-tight uppercase mt-2">
-                de descuento en su entrada
+                de desconto en su entrada
               </span>
             </h2>
 
@@ -143,9 +143,9 @@ export default function Home() {
             />
           </div>
           <div className="md:w-1/2">
-            <h2 className="text-4xl font-extrabold uppercase text-[#ffcc00] mb-6">Beneficios de ser SOCIO BSC</h2>
+            <h2 className="text-4xl font-extrabold uppercase text-[#ffcc00] mb-6">Y MÁS BENEFICIOS DE SER SOCIO</h2>
             <p className="text-xl text-[#999999] mb-8 leading-relaxed font-bold">
-              La Noche Amarilla es para todos, mas la experiencia completa es exclusiva para quienes llevan el Club en la sangue.
+              La Noche Amarilla es para todos, pero la experiencia completa es exclusiva para quienes llevan el Club en la sangre.
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-center gap-3 text-lg font-bold">
@@ -161,7 +161,7 @@ export default function Home() {
                 <span className="text-[#ffcc00]">✓</span> Experiencias únicas junto al Ídolo
               </li>
               <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Formar parte oficial de la história del Club
+                <span className="text-[#ffcc00]">✓</span> Formar parte oficial de la historia del Club
               </li>
             </ul>
           </div>
