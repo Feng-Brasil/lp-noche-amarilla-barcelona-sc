@@ -152,6 +152,9 @@ export default function Home() {
                 <span className="text-[#ffcc00]">✓</span> Asegura tu lugar en todos los partidos de local de LigaPro y Copa Ecuador
               </li>
               <li className="flex items-center gap-3 text-lg font-bold">
+                <span className="text-[#ffcc00]">✓</span> Zapping sin costo adicional
+              </li>
+              <li className="flex items-center gap-3 text-lg font-bold">
                 <span className="text-[#ffcc00]">✓</span> Más de 10 marcas aliadas con descuentos exclusivos
               </li>
               <li className="flex items-center gap-3 text-lg font-bold">
