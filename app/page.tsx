@@ -106,22 +106,10 @@ export default function Home() {
 
           <div className="max-w-4xl w-full text-center space-y-6">
             <h2 className="flex flex-col items-center">
-              <span className="text-xl md:text-2xl font-bold text-[#ffffff] tracking-widest uppercase mb-2">
-                ¡SOCIOS BSC TIENEN
-              </span>
               <span className="text-[#000000] text-5xl md:text-7xl lg:text-8xl font-black leading-none my-4">
-                100% DE DESCUENTO
-              </span>
-              <span className="text-lg md:text-3xl font-bold text-[#ffffff] tracking-tight max-w-2xl mx-auto uppercase">
-                EN SU ENTRADA
+                100% <span className="text-lg md:text-3xl font-bold text-[#ffffff] tracking-tight uppercase">DE DESCUENTO EN SU ENTRADA</span>
               </span>
             </h2>
-            
-            <div className="inline-block">
-              <p className="text-sm md:text-lg font-bold text-[#ffffff] uppercase tracking-tight">
-                *Socio Amarillo tiene 50% de descuento.
-              </p>
-            </div>
 
             <div className="pt-4">
               <a 
@@ -131,12 +119,14 @@ export default function Home() {
                 QUIERO SER SOCIO AHORA
               </a>
             </div>
+
+            <div className="inline-block mt-4">
+              <p className="text-sm md:text-lg font-bold text-[#ffffff] uppercase tracking-tight">
+                *Socio Amarillo tiene 50% de descuento.
+              </p>
+            </div>
           </div>
         </div>
-
-        {/* Elementos gráficos sutis */}
-        <div className="absolute top-10 left-10 text-[#000000]/10 text-4xl">★</div>
-        <div className="absolute bottom-10 right-10 text-[#000000]/10 text-4xl">★</div>
       </section>
 
       {/* EXPERIÊNCIA EXCLUSIVA PARA SÓCIOS - 4º SCROLL */}
