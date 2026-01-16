@@ -96,7 +96,6 @@ export default function Home() {
         </div>
 
         <div className="relative z-10 container mx-auto px-4 py-12 flex flex-col items-center">
-          {/* Micro Detalhe */}
           <div className="flex items-center gap-2 mb-6">
             <span className="text-xl">🎟️</span>
             <span className="text-[#000000] font-extrabold tracking-[0.2em] text-sm md:text-base uppercase">
@@ -116,7 +115,7 @@ export default function Home() {
 
             <div className="pt-4">
               <p className="text-lg md:text-xl font-extrabold text-[#000000] uppercase italic">
-                *Socio Amarillo tiene 50% de desconto.
+                *Socio Amarillo tiene 50% de descuente.
               </p>
             </div>
 
