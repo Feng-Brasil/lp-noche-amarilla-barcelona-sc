@@ -78,7 +78,7 @@ export default function Home() {
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">⭐</span>
               <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Estrella Mundial</h3>
-              <p className="text-[#cccccc] font-bold">Barcelona recibe a una estrella mundial que se pone la amarilla para jugar con nosotros. Prepárate para vivir una noche histórica, de esas que solo Barcelona puede regalarte.</p>
+              <p className="text-[#cccccc] font-bold">Barcelona recibe a una estrella mundial que se pone la amarilla para jugar con nosotros. Prepárate para vivir una noche histórica, de esas que solo Barcelona pode regalarte.</p>
             </div>
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">🎤</span>
@@ -123,7 +123,7 @@ export default function Home() {
             </div>
 
             <div className="pt-4">
-              <p className="text-sm md:text-base font-extrabold text-[#000000] uppercase">
+              <p className="text-xs md:text-sm font-normal text-[#000000] uppercase">
                 *Socio Amarillo tiene 50% de descuento.
               </p>
             </div>
