@@ -113,12 +113,6 @@ export default function Home() {
               </span>
             </h2>
 
-            <div className="pt-4">
-              <p className="text-lg md:text-xl font-extrabold text-[#000000] uppercase italic">
-                *Socio Amarillo tiene 50% de descuente.
-              </p>
-            </div>
-
             <div className="pt-8">
               <a 
                 href="#unirse" 
@@ -126,6 +120,12 @@ export default function Home() {
               >
                 QUIERO SER SOCIO AHORA
               </a>
+            </div>
+
+            <div className="pt-4">
+              <p className="text-sm md:text-base font-extrabold text-[#000000] uppercase">
+                *Socio Amarillo tiene 50% de descuento.
+              </p>
             </div>
           </div>
         </div>
@@ -144,7 +144,7 @@ export default function Home() {
           <div className="md:w-1/2">
             <h2 className="text-4xl font-extrabold uppercase text-[#ffcc00] mb-6">Y MÁS BENEFICIOS DE SER SOCIO</h2>
             <p className="text-xl text-[#999999] mb-8 leading-relaxed font-bold">
-              La Noche Amarilla es para todos, pero la experiencia completa es exclusiva para quienes llevan el Club en la sangre.
+              La Noche Amarilla es para todos, pero la experiencia completa es exclusiva para quienes llevan el Club en la sangue.
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-center gap-3 text-lg font-bold">
