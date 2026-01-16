@@ -69,7 +69,7 @@ export default function Home() {
             <div className="h-1 w-24 bg-[#ffcc00] mx-auto"></div>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">⚽</span>
               <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Presentación Oficial</h3>
@@ -84,6 +84,11 @@ export default function Home() {
               <span className="text-4xl mb-4 block">🎤</span>
               <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Show Especial</h3>
               <p className="text-[#cccccc] font-bold">Artistas internacionales, sorpresas y un espectacular show de fuegos artificiales para celebrar nuestra pasión. ¡Será una locura que nadie querrá que le cuenten, todos querrán vivirla!</p>
+            </div>
+            <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
+              <span className="text-4xl mb-4 block">💎</span>
+              <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">EXPERIENCIAS EXCLUSIVAS</h3>
+              <p className="text-[#cccccc] font-bold">Palco Pilsener, Parrillas Socios BSC y mucho más para vivir la Noche Amarilla como solo un socio puede.</p>
             </div>
           </div>
         </div>
@@ -144,7 +149,7 @@ export default function Home() {
           <div className="md:w-1/2">
             <h2 className="text-4xl font-extrabold uppercase text-[#ffcc00] mb-6">Y MÁS BENEFICIOS DE SER SOCIO</h2>
             <p className="text-xl text-[#999999] mb-8 leading-relaxed font-bold">
-              La Noche Amarilla es para todos, pero la experiencia completa es exclusiva para quienes llevan el Club en la sangre.
+              La Noche Amarilla es para todos, pero la experiencia completa es exclusiva para quienes llevan el Club en la sangue.
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-center gap-3 text-lg font-bold">
