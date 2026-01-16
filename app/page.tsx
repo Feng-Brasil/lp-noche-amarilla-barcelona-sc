@@ -116,7 +116,7 @@ export default function Home() {
 
             <div className="pt-4">
               <p className="text-lg md:text-xl font-extrabold text-[#000000] uppercase italic">
-                *Socio Amarillo tiene 50% de descuento.
+                *Socio Amarillo tiene 50% de desconto.
               </p>
             </div>
 
