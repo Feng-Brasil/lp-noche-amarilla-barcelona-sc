@@ -73,7 +73,7 @@ export default function Home() {
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">⚽</span>
               <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Presentación Oficial</h3>
-              <p className="text-[#cccccc] font-bold">Conoce de cerca a las nuevas incorporaciones y al plantel que representará a la institución en los torneos de esta temporada.</p>
+              <p className="text-[#cccccc] font-bold">Conoce de cerca a las novas incorporaciones y al plantel que representará a la institución en los torneos de esta temporada.</p>
             </div>
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">⭐</span>
@@ -110,9 +110,15 @@ export default function Home() {
                 100%
               </span>
               <span className="text-[#000000] text-lg md:text-2xl lg:text-3xl font-bold tracking-tight uppercase mt-2">
-                de desconto en su entrada
+                DE DESCUENTO EN SU ENTRADA
               </span>
             </h2>
+
+            <div className="pt-4">
+              <p className="text-lg md:text-xl font-extrabold text-[#000000] uppercase italic">
+                *Socio Amarillo tiene 50% de descuento.
+              </p>
+            </div>
 
             <div className="pt-8">
               <a 
@@ -121,12 +127,6 @@ export default function Home() {
               >
                 QUIERO SER SOCIO AHORA
               </a>
-            </div>
-
-            <div className="inline-block mt-4">
-              <p className="text-sm md:text-lg font-bold text-[#000000]/60 uppercase tracking-tight">
-                *Socio Amarillo tiene 50% de desconto.
-              </p>
             </div>
           </div>
         </div>
@@ -145,7 +145,7 @@ export default function Home() {
           <div className="md:w-1/2">
             <h2 className="text-4xl font-extrabold uppercase text-[#ffcc00] mb-6">Y MÁS BENEFICIOS DE SER SOCIO</h2>
             <p className="text-xl text-[#999999] mb-8 leading-relaxed font-bold">
-              La Noche Amarilla é para todos, pero la experiencia completa es exclusiva para quienes llevan el Club en la sangue.
+              La Noche Amarilla es para todos, pero la experiencia completa es exclusiva para quienes llevan el Club en la sangre.
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-center gap-3 text-lg font-bold">
