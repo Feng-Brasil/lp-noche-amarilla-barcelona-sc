@@ -136,43 +136,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* EXPERIÊNCIA EXCLUSIVA PARA SÓCIOS - 4º SCROLL */}
-      <section className="py-24 border-b border-[#333333]">
-        <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
-          <div className="w-full lg:w-1/2">
-            <img 
-              src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Janeiro/1401/A73I4712.jpg" 
-              alt="Afición Barcelona SC" 
-              className="rounded-lg shadow-[15px_15px_0px_0px_rgba(255,204,0,1)] md:shadow-[20px_20px_0px_0px_rgba(255,204,0,1)] border border-[#ffcc00] w-full h-auto object-cover"
-            />
-          </div>
-          <div className="w-full lg:w-1/2">
-            <h2 className="text-3xl md:text-4xl font-extrabold uppercase text-[#ffcc00] mb-6">Y MÁS BENEFICIOS DE SER SOCIO</h2>
-            <p className="text-lg md:text-xl text-[#999999] mb-8 leading-relaxed font-bold">
-              La Noche Amarilla es para todos, pero la experiencia completa es exclusiva para quienes llevan el Club en la sangue.
-            </p>
-            <ul className="space-y-4 mb-10">
-              <li className="flex items-start gap-3 text-base md:text-lg font-bold">
-                <span className="text-[#ffcc00] mt-1">✓</span> Asegura tu lugar en todos los partidos de local de LigaPro y Copa Ecuador
-              </li>
-              <li className="flex items-start gap-3 text-base md:text-lg font-bold">
-                <span className="text-[#ffcc00] mt-1">✓</span> Zapping sin costo adicional
-              </li>
-              <li className="flex items-start gap-3 text-base md:text-lg font-bold">
-                <span className="text-[#ffcc00] mt-1">✓</span> Más de 10 marcas aliadas con descuentos exclusivos
-              </li>
-              <li className="flex items-start gap-3 text-base md:text-lg font-bold">
-                <span className="text-[#ffcc00] mt-1">✓</span> Experiencias únicas junto al Ídolo
-              </li>
-              <li className="flex items-start gap-3 text-base md:text-lg font-bold">
-                <span className="text-[#ffcc00] mt-1">✓</span> Formar parte oficial de la historia del Club
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      {/* NOVO SCROLL - BACKGROUND IMAGE RESPONSIVE */}
+      {/* BACKGROUND IMAGE RESPONSIVE - ANTERIORMENTE APÓS O 4º SCROLL */}
       <section className="relative min-h-[50vh] md:h-screen w-full overflow-hidden flex items-center">
         <img 
           src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Janeiro/BSC_Scroll3-NocheAmarilla-COLOR.png" 
