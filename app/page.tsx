@@ -136,16 +136,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* BACKGROUND IMAGE RESPONSIVE - ANTERIORMENTE APÓS O 4º SCROLL */}
-      <section className="relative min-h-[50vh] md:h-screen w-full overflow-hidden flex items-center">
-        <img 
-          src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Janeiro/BSC_Scroll3-NocheAmarilla-COLOR.png" 
-          alt="Noche Amarilla Background" 
-          className="w-full h-full object-cover md:object-center"
-        />
-      </section>
-
-      {/* CTA FINAL - 5º SCROLL */}
+      {/* CTA FINAL - 4º SCROLL (Banner anterior removido) */}
       <section id="unirse" className="py-24 md:py-32 relative overflow-hidden bg-[#000000]">
         <div className="absolute inset-0 z-0">
           <img 
