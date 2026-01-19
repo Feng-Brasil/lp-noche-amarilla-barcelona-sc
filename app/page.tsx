@@ -40,19 +40,19 @@ export default function Home() {
               <img 
                 src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Janeiro/1401/Logo_Noche_Amarilla_Full_Color_1.png" 
                 alt="Noche Amarilla Logo" 
-                className="relative w-full max-w-[320px] md:max-w-[600px] h-auto drop-shadow-[0_10px_30px_rgba(0,0,0,0.5)]"
+                className="relative w-full max-w-[280px] md:max-w-[600px] h-auto drop-shadow-[0_10px_30px_rgba(0,0,0,0.5)]"
               />
             </div>
           </div>
           
-          <p className="max-w-2xl mx-auto text-xl md:text-2xl font-bold text-[#cccccc] mb-10 leading-relaxed tracking-wide">
+          <p className="max-w-2xl mx-auto text-lg md:text-2xl font-bold text-[#cccccc] mb-10 leading-relaxed tracking-wide px-4">
             El legado del <span className="text-[#ffcc00] font-extrabold">Ídolo del Ecuador</span> brilla más que nunca.
           </p>
           
-          <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
+          <div className="flex flex-col md:flex-row gap-6 justify-center items-center px-4">
             <a 
               href="#unirse" 
-              className="group relative bg-gradient-to-r from-[#ffcc00] to-[#b8860b] text-black font-[800] px-12 py-6 rounded-none uppercase tracking-wider transition-all hover:scale-105 shadow-[0_0_30px_rgba(255,204,0,0.3)] overflow-hidden"
+              className="w-full md:w-auto group relative bg-gradient-to-r from-[#ffcc00] to-[#b8860b] text-black font-[800] px-8 md:px-12 py-5 md:py-6 rounded-none uppercase tracking-wider transition-all hover:scale-105 shadow-[0_0_30px_rgba(255,204,0,0.3)] overflow-hidden text-sm md:text-base"
             >
               <span className="relative z-10">HACERME SOCIO Y VIVIR LA HISTORIA</span>
               <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500 skew-x-12" />
@@ -65,7 +65,7 @@ export default function Home() {
       <section className="py-24 bg-[#000000] text-[#ffffff]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-extrabold uppercase text-[#ffcc00] mb-4">Lo que te espera en nuestra casa</h2>
+            <h2 className="text-3xl md:text-4xl font-extrabold uppercase text-[#ffcc00] mb-4">Lo que te espera en nuestra casa</h2>
             <div className="h-1 w-24 bg-[#ffcc00] mx-auto"></div>
           </div>
           
@@ -110,10 +110,10 @@ export default function Home() {
 
           <div className="max-w-4xl w-full text-center space-y-4">
             <h2 className="flex flex-col items-center">
-              <span className="text-[#000000] text-6xl md:text-8xl lg:text-9xl font-extrabold leading-none" style={{ fontFamily: 'Arial Black, sans-serif' }}>
+              <span className="text-[#000000] text-7xl md:text-8xl lg:text-9xl font-extrabold leading-none" style={{ fontFamily: 'Arial Black, sans-serif' }}>
                 100%
               </span>
-              <span className="text-[#000000] text-lg md:text-2xl lg:text-3xl font-bold tracking-tight uppercase mt-2">
+              <span className="text-[#000000] text-base md:text-2xl lg:text-3xl font-bold tracking-tight uppercase mt-2">
                 DE DESCUENTO EN SU ENTRADA
               </span>
             </h2>
@@ -121,14 +121,14 @@ export default function Home() {
             <div className="pt-8">
               <a 
                 href="#unirse" 
-                className="inline-block bg-[#000000] hover:bg-[#171717] text-[#ffcc00] text-xl md:text-2xl font-black px-10 md:px-16 py-4 md:py-6 transition-all transform hover:scale-105 shadow-[0_10px_40px_rgba(0,0,0,0.3)] border-b-4 border-[#333333] active:border-b-0 active:translate-y-1"
+                className="inline-block bg-[#000000] hover:bg-[#171717] text-[#ffcc00] text-lg md:text-2xl font-black px-8 md:px-16 py-4 md:py-6 transition-all transform hover:scale-105 shadow-[0_10px_40px_rgba(0,0,0,0.3)] border-b-4 border-[#333333] active:border-b-0 active:translate-y-1"
               >
                 QUIERO SER SOCIO AHORA
               </a>
             </div>
 
             <div className="pt-4">
-              <p className="text-xs md:text-sm font-normal text-[#000000] uppercase">
+              <p className="text-[10px] md:text-sm font-normal text-[#000000] uppercase">
                 *Socio Amarillo tiene 50% de desconto.
               </p>
             </div>
@@ -138,51 +138,51 @@ export default function Home() {
 
       {/* EXPERIÊNCIA EXCLUSIVA PARA SÓCIOS - 4º SCROLL */}
       <section className="py-24 border-b border-[#333333]">
-        <div className="container mx-auto px-4 flex flex-col md:gap-12 lg:flex-row items-center gap-16">
-          <div className="md:w-1/2">
+        <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+          <div className="w-full lg:w-1/2">
             <img 
               src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Janeiro/1401/A73I4712.jpg" 
               alt="Afición Barcelona SC" 
-              className="rounded-lg shadow-[20px_20px_0px_0px_rgba(255,204,0,1)] border border-[#ffcc00] w-full h-auto object-cover"
+              className="rounded-lg shadow-[15px_15px_0px_0px_rgba(255,204,0,1)] md:shadow-[20px_20px_0px_0px_rgba(255,204,0,1)] border border-[#ffcc00] w-full h-auto object-cover"
             />
           </div>
-          <div className="md:w-1/2">
-            <h2 className="text-4xl font-extrabold uppercase text-[#ffcc00] mb-6">Y MÁS BENEFICIOS DE SER SOCIO</h2>
-            <p className="text-xl text-[#999999] mb-8 leading-relaxed font-bold">
+          <div className="w-full lg:w-1/2">
+            <h2 className="text-3xl md:text-4xl font-extrabold uppercase text-[#ffcc00] mb-6">Y MÁS BENEFICIOS DE SER SOCIO</h2>
+            <p className="text-lg md:text-xl text-[#999999] mb-8 leading-relaxed font-bold">
               La Noche Amarilla es para todos, pero la experiencia completa es exclusiva para quienes llevan el Club en la sangue.
             </p>
             <ul className="space-y-4 mb-10">
-              <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Asegura tu lugar en todos los partidos de local de LigaPro y Copa Ecuador
+              <li className="flex items-start gap-3 text-base md:text-lg font-bold">
+                <span className="text-[#ffcc00] mt-1">✓</span> Asegura tu lugar en todos los partidos de local de LigaPro y Copa Ecuador
               </li>
-              <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Zapping sin costo adicional
+              <li className="flex items-start gap-3 text-base md:text-lg font-bold">
+                <span className="text-[#ffcc00] mt-1">✓</span> Zapping sin costo adicional
               </li>
-              <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Más de 10 marcas aliadas con descuentos exclusivos
+              <li className="flex items-start gap-3 text-base md:text-lg font-bold">
+                <span className="text-[#ffcc00] mt-1">✓</span> Más de 10 marcas aliadas con descuentos exclusivos
               </li>
-              <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Experiencias únicas junto al Ídolo
+              <li className="flex items-start gap-3 text-base md:text-lg font-bold">
+                <span className="text-[#ffcc00] mt-1">✓</span> Experiencias únicas junto al Ídolo
               </li>
-              <li className="flex items-center gap-3 text-lg font-bold">
-                <span className="text-[#ffcc00]">✓</span> Formar parte oficial de la historia del Club
+              <li className="flex items-start gap-3 text-base md:text-lg font-bold">
+                <span className="text-[#ffcc00] mt-1">✓</span> Formar parte oficial de la historia del Club
               </li>
             </ul>
           </div>
         </div>
       </section>
 
-      {/* NOVO SCROLL - BACKGROUND IMAGE 100% */}
-      <section className="relative h-screen w-full overflow-hidden">
+      {/* NOVO SCROLL - BACKGROUND IMAGE RESPONSIVE */}
+      <section className="relative min-h-[50vh] md:h-screen w-full overflow-hidden flex items-center">
         <img 
           src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Janeiro/BSC_Scroll3-NocheAmarilla-COLOR.png" 
           alt="Noche Amarilla Background" 
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover md:object-center"
         />
       </section>
 
       {/* CTA FINAL - 5º SCROLL */}
-      <section id="unirse" className="py-32 relative overflow-hidden bg-[#000000]">
+      <section id="unirse" className="py-24 md:py-32 relative overflow-hidden bg-[#000000]">
         <div className="absolute inset-0 z-0">
           <img 
             src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Janeiro/1401/BSC_Scroll1-NocheAmarilla.png" 
@@ -194,19 +194,19 @@ export default function Home() {
         
         <div className="container mx-auto px-4 relative z-10 text-center">
           <h2 className="flex flex-col items-center font-extrabold uppercase text-white mb-8 drop-shadow-lg">
-            <span className="text-3xl md:text-5xl tracking-tight mb-2">¿LISTO PARA HACER</span>
-            <span className="text-6xl md:text-9xl text-[#ffcc00] leading-none" style={{ fontFamily: 'Arial Black, sans-serif' }}>HISTORIA?</span>
+            <span className="text-2xl md:text-5xl tracking-tight mb-2">¿LISTO PARA HACER</span>
+            <span className="text-5xl md:text-9xl text-[#ffcc00] leading-none" style={{ fontFamily: 'Arial Black, sans-serif' }}>HISTORIA?</span>
           </h2>
-          <p className="text-2xl md:text-3xl font-bold text-[#999999] mb-12 max-w-3xl mx-auto">
+          <p className="text-lg md:text-3xl font-bold text-[#999999] mb-12 max-w-3xl mx-auto">
             No dejes que te lo cuenten. Sé protagonista de la Noche Amarilla y del futuro del Ídolo.
           </p>
           <a 
             href="#" 
-            className="inline-block bg-[#ffcc00] hover:bg-white text-black text-2xl font-extrabold px-16 py-8 uppercase tracking-widest transition-all shadow-[0_10px_40px_rgba(255,204,0,0.3)]"
+            className="inline-block bg-[#ffcc00] hover:bg-white text-black text-lg md:text-2xl font-extrabold px-10 md:px-16 py-6 md:py-8 uppercase tracking-widest transition-all shadow-[0_10px_40px_rgba(255,204,0,0.3)]"
           >
             HACERME SOCIO AHORA →
           </a>
-          <p className="mt-8 text-[#999999] font-bold uppercase tracking-widest">
+          <p className="mt-8 text-sm md:text-base text-[#999999] font-bold uppercase tracking-widest">
             #BarcelonaSC #IdoloDelEcuador #NocheAmarilla
           </p>
         </div>
@@ -219,10 +219,10 @@ export default function Home() {
             <img 
               src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/assets/img/socios-logo-amarelo.svg" 
               alt="Socios BSC Logo" 
-              className="h-16 w-auto"
+              className="h-12 md:h-16 w-auto"
             />
           </div>
-          <p className="text-[#999999] text-sm max-w-md mx-auto font-bold">
+          <p className="text-[#999999] text-xs md:text-sm max-w-md mx-auto font-bold">
             © 2024 Barcelona Sporting Club. Todos los derechos reservados. 
             El club más grande del Ecuador te espera.
           </p>
