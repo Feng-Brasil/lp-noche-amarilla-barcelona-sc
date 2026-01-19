@@ -88,7 +88,7 @@ export default function Home() {
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">💎</span>
               <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">EXPERIENCIAS EXCLUSIVAS</h3>
-              <p className="text-[#cccccc] font-bold">Palco Pilsener, Parrillas Socios BSC y mucho más para vivir la Noche Amarilla como solo un socio puede.</p>
+              <p className="text-[#cccccc] font-bold">Palco Pilsener, Parrillas Socios BSC y mucho más para vivir la Noche Amarilla como solo un socio pode.</p>
             </div>
           </div>
         </div>
@@ -170,6 +170,15 @@ export default function Home() {
             </ul>
           </div>
         </div>
+      </section>
+
+      {/* NOVO SCROLL - BACKGROUND IMAGE 100% */}
+      <section className="relative h-screen w-full overflow-hidden">
+        <img 
+          src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Janeiro/BSC_Scroll3-NocheAmarilla-COLOR.png" 
+          alt="Noche Amarilla Background" 
+          className="w-full h-full object-cover"
+        />
       </section>
 
       {/* CTA FINAL - 5º SCROLL */}
