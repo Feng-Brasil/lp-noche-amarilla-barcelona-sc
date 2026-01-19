@@ -151,12 +151,9 @@ export default function Home() {
               <h2 className="text-3xl md:text-5xl font-extrabold text-[#ffcc00] mb-6 uppercase leading-tight">
                 Y MUCHOS MÁS BENEFICIOS POR SER SOCIO
               </h2>
-              <p className="text-lg md:text-xl font-bold text-white mb-8 leading-relaxed">
-                La Noche Amarilla es para todos, pero vivirla al máximo es un privilegio de quienes sienten al Club en el corazón.
-              </p>
               <ul className="space-y-4">
                 {[
-                  "Asegura tu lugar en todos los partidos de local de LigaPro y Copa Ecuador",
+                  "Asegura tu lugar en todos los partidos de local de LigaPro e Copa Ecuador",
                   "Zapping incluido sin costo adicional",
                   "Más de 10 marcas aliadas con descuentos exclusivos",
                   "Experiencias únicas junto al Ídolo",
