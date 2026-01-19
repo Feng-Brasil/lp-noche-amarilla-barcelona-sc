@@ -140,53 +140,34 @@ export default function Home() {
       <section className="py-24 bg-[#171717] border-b border-[#333333]">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-12">
-            <div className="w-full md:w-1/2">
-              <h2 className="text-4xl md:text-5xl font-extrabold text-[#ffcc00] mb-8 uppercase leading-tight">
-                Mucho más que <br />una entrada
-              </h2>
-              <ul className="space-y-6">
-                <li className="flex items-start gap-4">
-                  <div className="mt-1 bg-[#ffcc00] p-1 rounded-full">
-                    <svg className="w-4 h-4 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="5 13l4 4L19 7" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-bold text-white uppercase">Prioridad en Boletos</h4>
-                    <p className="text-[#999999] font-bold">Asegura tu lugar en todos los partidos de local antes que nadie.</p>
-                  </div>
-                </li>
-                <li className="flex items-start gap-4">
-                  <div className="mt-1 bg-[#ffcc00] p-1 rounded-full">
-                    <svg className="w-4 h-4 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="5 13l4 4L19 7" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-bold text-white uppercase">Red de Descuentos</h4>
-                    <p className="text-[#999999] font-bold">Beneficios exclusivos en marcas aliadas y tiendas oficiales BSC Store.</p>
-                  </div>
-                </li>
-                <li className="flex items-start gap-4">
-                  <div className="mt-1 bg-[#ffcc00] p-1 rounded-full">
-                    <svg className="w-4 h-4 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="5 13l4 4L19 7" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-bold text-white uppercase">Voto en Elecciones</h4>
-                    <p className="text-[#999999] font-bold">Sé parte activa de las decisiones democráticas de la institución.</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div className="w-full md:w-1/2 relative">
-              <div className="absolute -inset-4 bg-[#ffcc00]/20 blur-2xl rounded-full" />
+            <div className="w-full md:w-1/2 order-2 md:order-1">
               <img 
-                src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Janeiro/1401/BSC_Scroll1-NocheAmarilla.png" 
+                src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Janeiro/1401/A73I4712.jpg" 
                 alt="Beneficios Socio" 
-                className="relative rounded-lg shadow-2xl border-2 border-[#ffcc00]/30 grayscale hover:grayscale-0 transition-all duration-700"
+                className="rounded-lg shadow-2xl border-2 border-[#ffcc00]/30 w-full h-auto object-cover"
               />
+            </div>
+            <div className="w-full md:w-1/2 order-1 md:order-2">
+              <h2 className="text-3xl md:text-5xl font-extrabold text-[#ffcc00] mb-6 uppercase leading-tight">
+                Y MUCHOS MÁS BENEFICIOS POR SER SOCIO
+              </h2>
+              <p className="text-lg md:text-xl font-bold text-white mb-8 leading-relaxed">
+                La Noche Amarilla es para todos, pero vivirla al máximo es un privilegio de quienes sienten al Club en el corazón.
+              </p>
+              <ul className="space-y-4">
+                {[
+                  "Asegura tu lugar en todos los partidos de local de LigaPro y Copa Ecuador",
+                  "Zapping incluido sin costo adicional",
+                  "Más de 10 marcas aliadas con descuentos exclusivos",
+                  "Experiencias únicas junto al Ídolo",
+                  "Sé parte oficial de la historia del Club"
+                ].map((item, index) => (
+                  <li key={index} className="flex items-start gap-3">
+                    <span className="text-[#ffcc00] font-bold text-xl">✓</span>
+                    <span className="text-[#cccccc] font-bold text-base md:text-lg">{item}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
