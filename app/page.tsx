@@ -136,7 +136,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA FINAL - 4º SCROLL (Banner anterior removido) */}
+      {/* CTA FINAL - 4º SCROLL */}
       <section id="unirse" className="py-24 md:py-32 relative overflow-hidden bg-[#000000]">
         <div className="absolute inset-0 z-0">
           <img 
