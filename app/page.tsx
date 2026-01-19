@@ -136,7 +136,63 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA FINAL - 4º SCROLL */}
+      {/* BENEFICIOS - 4º SCROLL */}
+      <section className="py-24 bg-[#171717] border-b border-[#333333]">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row items-center gap-12">
+            <div className="w-full md:w-1/2">
+              <h2 className="text-4xl md:text-5xl font-extrabold text-[#ffcc00] mb-8 uppercase leading-tight">
+                Mucho más que <br />una entrada
+              </h2>
+              <ul className="space-y-6">
+                <li className="flex items-start gap-4">
+                  <div className="mt-1 bg-[#ffcc00] p-1 rounded-full">
+                    <svg className="w-4 h-4 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-white uppercase">Prioridad en Boletos</h4>
+                    <p className="text-[#999999] font-bold">Asegura tu lugar en todos los partidos de local antes que nadie.</p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4">
+                  <div className="mt-1 bg-[#ffcc00] p-1 rounded-full">
+                    <svg className="w-4 h-4 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-white uppercase">Red de Descuentos</h4>
+                    <p className="text-[#999999] font-bold">Beneficios exclusivos en marcas aliadas y tiendas oficiales BSC Store.</p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4">
+                  <div className="mt-1 bg-[#ffcc00] p-1 rounded-full">
+                    <svg className="w-4 h-4 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-white uppercase">Voto en Elecciones</h4>
+                    <p className="text-[#999999] font-bold">Sé parte activa de las decisiones democráticas de la institución.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div className="w-full md:w-1/2 relative">
+              <div className="absolute -inset-4 bg-[#ffcc00]/20 blur-2xl rounded-full" />
+              <img 
+                src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Janeiro/1401/BSC_Scroll1-NocheAmarilla.png" 
+                alt="Beneficios Socio" 
+                className="relative rounded-lg shadow-2xl border-2 border-[#ffcc00]/30 grayscale hover:grayscale-0 transition-all duration-700"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA FINAL - 5º SCROLL */}
       <section id="unirse" className="py-24 md:py-32 relative overflow-hidden bg-[#000000]">
         <div className="absolute inset-0 z-0">
           <img 
