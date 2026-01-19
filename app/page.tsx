@@ -71,24 +71,24 @@ export default function Home() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
-              <span className="text-4xl mb-4 block">⚽</span>
-              <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Presentación Oficial</h3>
-              <p className="text-[#cccccc] font-bold">Conoce de cerca a las novas incorporaciones y al plantel que representará a la institución en los torneos de esta temporada.</p>
-            </div>
-            <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">⭐</span>
               <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Estrella Mundial</h3>
-              <p className="text-[#cccccc] font-bold">Barcelona recebe a una estrella mundial que se pone la amarilla para jugar con nosotros. Prepárate para vivir una noche histórica, de esas que solo Barcelona pode regalarte.</p>
+              <p className="text-[#cccccc] font-bold">Barcelona recibe a una estrella mundial que se pone la amarilla para jugar con nosotros. Prepárate para vivir una noche histórica, de esas que solo el Ídolo sabe regalar.</p>
+            </div>
+            <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
+              <span className="text-4xl mb-4 block">⚽</span>
+              <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Presentación Oficial</h3>
+              <p className="text-[#cccccc] font-bold">Conoce de cerca a las nuevas incorporaciones y al plantel que defenderá los colores del Ídolo en esta temporada. El inicio de un nuevo sueño, todos juntos.</p>
             </div>
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">🎤</span>
               <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Show Especial</h3>
-              <p className="text-[#cccccc] font-bold">Artistas internacionales, sorpresas y un espectacular show de fuegos artificiales para celebrar nuestra pasión. ¡Será una locura que nadie querrá que le cuenten, todos querrán vivirla!</p>
+              <p className="text-[#cccccc] font-bold">Artistas internacionales, sorpresas y un impresionante show de fuegos artificiales para celebrar nuestra pasión. Será una locura que nadie va a querer que le cuenten, todos querrán vivirla.</p>
             </div>
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">💎</span>
-              <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">EXPERIENCIAS EXCLUSIVAS</h3>
-              <p className="text-[#cccccc] font-bold">Palco Pilsener, Parrillas Socios BSC y mucho más para vivir la Noche Amarilla como solo un socio pode.</p>
+              <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Experiencias Exclusivas</h3>
+              <p className="text-[#cccccc] font-bold">Palco Pilsener, Parrillas Socios BSC y mucho más para disfrutar la Noche Amarilla como solo un socio puede hacerlo. Una experiencia a otro nivel, junto al Ídolo.</p>
             </div>
           </div>
         </div>
@@ -157,7 +157,7 @@ export default function Home() {
                   "Zapping incluido sin costo adicional",
                   "Más de 10 marcas aliadas con descuentos exclusivos",
                   "Experiencias únicas junto al Ídolo",
-                  "Sé parte oficial de la historia del Club"
+                  "Sé parte oficial de la história del Club"
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3">
                     <span className="text-[#ffcc00] font-bold text-xl">✓</span>
