@@ -1,4 +1,10 @@
+import { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
+
+export const metadata: Metadata = {
+  title: 'Noche Amarilla 2026',
+  description: 'Noche Amarilla 2026 - Socios BSC',
+};
 
 const montserrat = Montserrat({
   subsets: ['latin'],
