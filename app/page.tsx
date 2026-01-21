@@ -78,7 +78,7 @@ export default function Home() {
             <div className="h-1 w-24 bg-[#ffcc00] mx-auto"></div>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">⚽</span>
               <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Presentación Oficial</h3>
@@ -89,7 +89,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Show Especial</h3>
               <p className="text-[#cccccc] font-bold">Artistas internacionales, sorpresas y un impresionante show de fuegos artificiales para celebrar nuestra pasión. Será una locura que nadie va a querer que le cuenten, todos querrán vivirla.</p>
             </div>
-            <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
+            <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors md:col-span-2">
               <span className="text-4xl mb-4 block">💎</span>
               <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Experiencias Exclusivas</h3>
               <p className="text-[#cccccc] font-bold">Palco Pilsener, Parrillas Socios BSC y mucho más para disfrutar la Noche Amarilla como solo un socio pode hacerlo. Una experiencia a outro level, junto al Ídolo.</p>
