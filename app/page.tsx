@@ -153,11 +153,11 @@ export default function Home() {
               </h2>
               <ul className="space-y-4">
                 {[
-                  "Asegura tu lugar en todos los partidos de local de LigaPro e Copa Ecuador",
+                  "Asegura tu lugar en todos los partidos de local de LigaPro y Copa Ecuador",
                   "Zapping incluido sin costo adicional",
                   "Más de 10 marcas aliadas con descuentos exclusivos",
                   "Experiencias únicas junto al Ídolo",
-                  "Sé parte oficial de la história del Club"
+                  "Sé parte oficial de la historia del Club"
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3">
                     <span className="text-[#ffcc00] font-bold text-xl">✓</span>
