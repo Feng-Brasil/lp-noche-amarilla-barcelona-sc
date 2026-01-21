@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Noche Amarilla 2026',
   description: 'Noche Amarilla 2026 - Socios BSC',
   icons: {
-    icon: 'https://st-barcelonasc.s3.sa-east-1.amazonaws.com/assets/img/escudo-bsc.png',
+    icon: 'https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Janeiro/1401/Logo_Noche_Amarilla_Full_Color_1.png',
   },
 };
 
@@ -138,7 +138,7 @@ export default function Home() {
 
             <div className="pt-4">
               <p className="text-[10px] md:text-sm font-normal text-[#000000] uppercase">
-                *Socio Amarillo tiene 50% de descuento.
+                *Socio Amarillo tiene 50% de desconto.
               </p>
             </div>
           </div>
