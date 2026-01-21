@@ -52,7 +52,7 @@ export default function Home() {
           </div>
           
           <p className="max-w-2xl mx-auto text-lg md:text-2xl font-bold text-[#cccccc] mb-10 leading-relaxed tracking-wide px-4">
-            El legado del <span className="text-[#ffcc00] font-extrabold">Ídolo del Ecuador</span> brilla más que nunca.
+            El legado del <span className="text-[#ffcc00] font-extrabold">Ídolo del Ecuador</span> brilla <br className="hidden md:block" /> más que nunca.
           </p>
           
           <div className="flex flex-col md:flex-row gap-6 justify-center items-center px-4">
@@ -135,7 +135,7 @@ export default function Home() {
 
             <div className="pt-4">
               <p className="text-[10px] md:text-sm font-normal text-[#000000] uppercase">
-                *Socio Amarillo tiene 50% de descuento.
+                *Socio Amarillo tiene 50% de desconto.
               </p>
             </div>
           </div>
