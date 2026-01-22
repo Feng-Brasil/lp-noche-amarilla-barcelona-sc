@@ -80,7 +80,7 @@ export default function Home() {
           
           <div className="flex flex-col md:flex-row gap-6 justify-center items-center px-4">
             <a 
-              href="https://sociosbsc.com.ec/planes" 
+              href="https://sociosbsc.com.ec/planes?utm_source=landing-page-noche-amarilla" 
               className="w-full md:w-auto group relative bg-gradient-to-r from-[#ffcc00] to-[#b8860b] text-black font-[800] px-8 md:px-12 py-5 md:py-6 rounded-none uppercase tracking-wider transition-all hover:scale-105 shadow-[0_0_30px_rgba(255,204,0,0.3)] overflow-hidden text-sm md:text-base"
             >
               <span className="relative z-10">HACERME SOCIO Y VIVIR LA HISTORIA</span>
@@ -102,7 +102,7 @@ export default function Home() {
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">⚽</span>
               <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Presentación Oficial</h3>
-              <p className="text-[#cccccc] font-bold">Conoce de cerca a las nuevas incorporaciones y al plantel que defenderá los colores del Ídolo en esta temporada. El inicio de un new sueño, todos juntos.</p>
+              <p className="text-[#cccccc] font-bold">Conoce de cerca a las novas incorporaciones y al plantel que defenderá los colores del Ídolo en esta temporada. El inicio de un new sueño, todos juntos.</p>
             </div>
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">🎤</span>
@@ -144,7 +144,7 @@ export default function Home() {
 
             <div className="pt-8">
               <a 
-                href="https://sociosbsc.com.ec/planes" 
+                href="https://sociosbsc.com.ec/planes?utm_source=landing-page-noche-amarilla" 
                 className="inline-block bg-[#000000] hover:bg-[#171717] text-[#ffcc00] text-lg md:text-2xl font-black px-8 md:px-16 py-4 md:py-6 transition-all transform hover:scale-105 shadow-[0_10px_40px_rgba(0,0,0,0.3)] border-b-4 border-[#333333] active:border-b-0 active:translate-y-1"
               >
                 QUIERO SER SOCIO AHORA
@@ -178,7 +178,7 @@ export default function Home() {
               <ul className="space-y-4">
                 {[
                   "Asegura tu lugar en todos los partidos de local de LigaPro y Copa Ecuador",
-                  "Zapping incluido sin costo adicional",
+                  "Zapping incluido sem costo adicional",
                   "Más de 10 marcas aliadas con descuentos exclusivos",
                   "Experiencias únicas junto al Ídolo",
                   "Sé parte oficial de la historia del Club"
@@ -214,7 +214,7 @@ export default function Home() {
             No dejes que te lo cuenten. Sé protagonista de la Noche Amarilla y del futuro del Ídolo.
           </p>
           <a 
-            href="https://sociosbsc.com.ec/planes" 
+            href="https://sociosbsc.com.ec/planes?utm_source=landing-page-noche-amarilla" 
             className="inline-block bg-[#ffcc00] hover:bg-white text-black text-lg md:text-2xl font-extrabold px-10 md:px-16 py-6 md:py-8 uppercase tracking-widest transition-all shadow-[0_10px_40px_rgba(255,204,0,0.3)]"
           >
             HACERME SOCIO AHORA →
