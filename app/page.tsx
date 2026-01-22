@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: 'Noche Amarilla 2026',
@@ -18,6 +19,25 @@ const montserrat = Montserrat({
 export default function Home() {
   return (
     <main className={`${montserrat.className} min-h-screen bg-[#171717] text-[#ffffff] selection:bg-[#ffcc00] selection:text-[#000000]`}>
+      {/* Google Tag Manager - Head */}
+      <Script id="gtm-script" strategy="afterInteractive">
+        {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-P5JJDB6B');`}
+      </Script>
+
+      {/* Google Tag Manager (noscript) */}
+      <noscript>
+        <iframe 
+          src="https://www.googletagmanager.com/ns.html?id=GTM-P5JJDB6B"
+          height="0" 
+          width="0" 
+          style={{ display: 'none', visibility: 'hidden' }}
+        />
+      </noscript>
+
       {/* HERO SECTION - 1º SCROLL */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden border-b-4 border-[#ffcc00] bg-[#000000]">
         <div className="absolute inset-0 z-0">
@@ -82,7 +102,7 @@ export default function Home() {
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">⚽</span>
               <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Presentación Oficial</h3>
-              <p className="text-[#cccccc] font-bold">Conoce de cerca a las nuevas incorporaciones y al plantel que defenderá los colores del Ídolo en esta temporada. El inicio de un nuevo sueño, todos juntos.</p>
+              <p className="text-[#cccccc] font-bold">Conoce de cerca a las nuevas incorporaciones y al plantel que defenderá los colores del Ídolo en esta temporada. El inicio de un new sueño, todos juntos.</p>
             </div>
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">🎤</span>
@@ -92,7 +112,7 @@ export default function Home() {
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors md:col-span-2">
               <span className="text-4xl mb-4 block">💎</span>
               <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Experiencias Exclusivas</h3>
-              <p className="text-[#cccccc] font-bold">Palco Pilsener, Parrillas Socios BSC y mucho más para disfrutar la Noche Amarilla como solo un socio puede hacerlo. Una experiencia a otro nivel, junto al Ídolo.</p>
+              <p className="text-[#cccccc] font-bold">Palco Pilsener, Parrillas Socios BSC y mucho más para disfrutar la Noche Amarilla como solo un socio pode hacerlo. Una experiencia a otro nivel, junto al Ídolo.</p>
             </div>
           </div>
         </div>
