@@ -102,7 +102,7 @@ export default function Home() {
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">⚽</span>
               <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Presentación Oficial</h3>
-              <p className="text-[#cccccc] font-bold">Conoce de cerca a las novas incorporaciones y al plantel que defenderá los colores del Ídolo en esta temporada. El inicio de un new sueño, todos juntos.</p>
+              <p className="text-[#cccccc] font-bold">Conoce de cerca a las nuevas incorporaciones y al plantel que defenderá los colores del Ídolo en esta temporada. El inicio de un nuevo sueño, todos juntos.</p>
             </div>
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors">
               <span className="text-4xl mb-4 block">🎤</span>
@@ -112,7 +112,7 @@ export default function Home() {
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors md:col-span-2">
               <span className="text-4xl mb-4 block">💎</span>
               <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Experiencias Exclusivas</h3>
-              <p className="text-[#cccccc] font-bold">Palco Pilsener, Parrillas Socios BSC y mucho más para disfrutar la Noche Amarilla como solo un socio pode hacerlo. Una experiência a otro nível, junto al Ídolo.</p>
+              <p className="text-[#cccccc] font-bold">Palco Pilsener, Parrillas Socios BSC y mucho más para disfrutar la Noche Amarilla como solo un socio puede hacerlo. Una experiencia a otro nivel, junto al Ídolo.</p>
             </div>
           </div>
         </div>
@@ -153,7 +153,7 @@ export default function Home() {
 
             <div className="pt-4">
               <p className="text-[10px] md:text-sm font-normal text-[#000000] uppercase">
-                *Socio Amarillo tiene 50% de desconto.
+                *Socio Amarillo tiene 50% de descuento.
               </p>
             </div>
           </div>
@@ -178,7 +178,7 @@ export default function Home() {
               <ul className="space-y-4">
                 {[
                   "Asegura tu lugar en todos los partidos de local de LigaPro y Copa Ecuador",
-                  "Zapping incluido sem costo adicional",
+                  "Zapping incluido sin costo adicional",
                   "Más de 10 marcas aliadas con descuentos exclusivos",
                   "Experiencias únicas junto al Ídolo",
                   "Sé parte oficial de la historia del Club"
