@@ -236,7 +236,7 @@ export default function Home() {
             />
           </div>
           <p className="text-[#999999] text-xs md:text-sm max-w-md mx-auto font-bold">
-            © 2024 Barcelona Sporting Club. Todos los derechos reservados. 
+            © 2026 Barcelona Sporting Club. Todos los derechos reservados. 
             El club más grande del Ecuador te espera.
           </p>
         </div>
