@@ -17,8 +17,6 @@ const montserrat = Montserrat({
 });
 
 export default function Home() {
-  const ctaLink = "https://sociosbsc.com.ec/planes?utm_source=landing-page-noche-amarilla&utm_medium=referral&utm_campaign=noche-amarilla";
-
   return (
     <main className={`${montserrat.className} min-h-screen bg-[#171717] text-[#ffffff] selection:bg-[#ffcc00] selection:text-[#000000]`}>
       {/* Google Tag Manager - Head */}
@@ -82,7 +80,7 @@ export default function Home() {
           
           <div className="flex flex-col md:flex-row gap-6 justify-center items-center px-4">
             <a 
-              href={ctaLink} 
+              href="https://sociosbsc.com.ec/planes?utm_source=landing-page-noche-amarilla&utm_medium=cta1&utm_campaign=noche-amarilla" 
               className="w-full md:w-auto group relative bg-gradient-to-r from-[#ffcc00] to-[#b8860b] text-black font-[800] px-8 md:px-12 py-5 md:py-6 rounded-none uppercase tracking-wider transition-all hover:scale-105 shadow-[0_0_30px_rgba(255,204,0,0.3)] overflow-hidden text-sm md:text-base"
             >
               <span className="relative z-10">HACERME SOCIO Y VIVIR LA HISTORIA</span>
@@ -114,7 +112,7 @@ export default function Home() {
             <div className="p-8 border-l-4 border-[#ffcc00] bg-[#171717] hover:bg-[#262626] transition-colors md:col-span-2">
               <span className="text-4xl mb-4 block">💎</span>
               <h3 className="text-2xl font-bold mb-3 text-[#ffcc00]">Experiencias Exclusivas</h3>
-              <p className="text-[#cccccc] font-bold">Palco Pilsener, Parrillas Socios BSC y mucho más para disfrutar la Noche Amarilla como solo un socio pode hacerlo. Una experiencia a otro nivel, junto al Ídolo.</p>
+              <p className="text-[#cccccc] font-bold">Palco Pilsener, Parrillas Socios BSC y mucho más para disfrutar la Noche Amarilla como solo un socio pode hacerlo. Una experiência a otro nível, junto al Ídolo.</p>
             </div>
           </div>
         </div>
@@ -146,7 +144,7 @@ export default function Home() {
 
             <div className="pt-8">
               <a 
-                href={ctaLink} 
+                href="https://sociosbsc.com.ec/planes?utm_source=landing-page-noche-amarilla&utm_medium=cta2&utm_campaign=noche-amarilla" 
                 className="inline-block bg-[#000000] hover:bg-[#171717] text-[#ffcc00] text-lg md:text-2xl font-black px-8 md:px-16 py-4 md:py-6 transition-all transform hover:scale-105 shadow-[0_10px_40px_rgba(0,0,0,0.3)] border-b-4 border-[#333333] active:border-b-0 active:translate-y-1"
               >
                 QUIERO SER SOCIO AHORA
@@ -216,7 +214,7 @@ export default function Home() {
             No dejes que te lo cuenten. Sé protagonista de la Noche Amarilla y del futuro del Ídolo.
           </p>
           <a 
-            href={ctaLink} 
+            href="https://sociosbsc.com.ec/planes?utm_source=landing-page-noche-amarilla&utm_medium=cta3&utm_campaign=noche-amarilla" 
             className="inline-block bg-[#ffcc00] hover:bg-white text-black text-lg md:text-2xl font-extrabold px-10 md:px-16 py-6 md:py-8 uppercase tracking-widest transition-all shadow-[0_10px_40px_rgba(255,204,0,0.3)]"
           >
             HACERME SOCIO AHORA →
